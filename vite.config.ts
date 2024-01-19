@@ -43,25 +43,8 @@ export default defineConfig({
             { pragma: '__cssprop' },
             'twin.macro',
           ],
-          [react(), svgLoader()],
-          [svgr()],
         ],
       },
-    }),
-    svgLoader({
-      defaultImport: 'url', // or 'raw',
-      svgoConfig: {
-        multipass: true
-      }
-    }),
-    svgr({
-      svgrOptions: {
-        plugins: ["@svgr/plugin-svgo", "@svgr/plugin-jsx"],
-        svgoConfig: {
-          floatPrecision: 2,
-        },
-      },
-      // ...
     }),
   ],
 
