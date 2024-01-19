@@ -1,6 +1,6 @@
 import tw from 'twin.macro'
 import React from 'react'
-import Dermatologist from './Assets/dermatologistAvatar.svg'
+import Dermatologist from './assets/dermatologistAvatar.svg'
 import TextTitle from '../textTile/Title'
 import FbWhiteBgIcon from '../socialicons/fbWhiteBg'
 import InstagramWhiteBgIcon from '../socialicons/instagramWhiteBg'
