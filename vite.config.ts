@@ -2,18 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 
-module.exports = {
-  // other config values
 
-  webpack(config: { module: { rules: { test: RegExp; issuer: { and: RegExp[]; }; use: string[]; }[]; }; }): any {
-    config.module.rules.push({
-      test: /\.svg$/i,
-      issuer: { and: [/\.(js|ts|md)x?$/] },
-      use: ['@svgr/webpack'],
-    });
-    return config;
-  }
-};
 // https://vitejs.dev/config/
 export default defineConfig({
   optimizeDeps: {
