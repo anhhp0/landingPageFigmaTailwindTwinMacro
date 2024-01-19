@@ -1,6 +1,7 @@
 import React from "react";
 declare module "*.jpg";
 declare module "*.png";
+declare module "*.svg";
 import webpack = require("webpack");
 export = webpack;
 declare module '*.jpg' {
@@ -33,3 +34,7 @@ declare module '*.svg' {
     export default src;
 
 }
+// declare module '*.svg' {
+//     const svgPath: string;
+
+// }

@@ -24,10 +24,14 @@
   "include": [
     "src/**/*",
     "types",
-    "main.d.ts",
+    "src/main.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "**/*.svg",
+    "**/*.svg", "webpack.config.js",
+    "src/components/**/*",
+    "src/components",
+    "types/twin.d.ts",
+    "global.d.ts"
   ],
   "references": [
     {
