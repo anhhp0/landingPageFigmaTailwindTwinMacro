@@ -12,6 +12,7 @@ import Service from './components/mainPages/Service'
 import Gallery from './components/mainPages/Gallery'
 import Team from './components/mainPages/Team'
 import Blog from './components/mainPages/Blog'
+import Contact from './components/mainPages/Contact'
 
 const container = document.getElementById('root')
 const root = createRoot(container!)
@@ -23,6 +24,7 @@ root.render(
     {/* <Service/> */}
     {/* <Gallery /> */}
     {/* <Team /> */}
-    <Blog />
+    {/* <Blog /> */}
+    <Contact/>
   </React.StrictMode>,
 )
