@@ -31,7 +31,7 @@ const Footer = () => (
     <BottomBg />
     <FooterBg />
     <div tw="flex flex-col [text-align:center] [margin-top: -500px] gap-5 w-screen">
-      <div tw="flex flex-row flex-wrap max-md:flex-col max-md:[margin-top: -100px]">
+      <div tw="flex flex-row flex-wrap max-md:flex-col max-md:[margin-top: -110px]">
         {/* Logo + address  */}
         <div tw="flex flex-col px-24 gap-4">
           {/* Logo  */}
@@ -55,7 +55,7 @@ const Footer = () => (
         {/* Logo + address  */}
         {/* .............. */}
 
-        <div tw="flex flex-row px-10 gap-x-72">
+        <div tw="flex flex-row px-10 gap-x-72 max-md:gap-x-36">
           {/* Page  */}
           <div tw="flex flex-col gap-6">
             <TypeTextTile>Page</TypeTextTile>

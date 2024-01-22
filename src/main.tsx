@@ -13,6 +13,7 @@ import Gallery from './components/mainPages/Gallery'
 import Team from './components/mainPages/Team'
 import Blog from './components/mainPages/Blog'
 import Contact from './components/mainPages/Contact'
+import AllRoutes from './components/mainPages/allRouter'
 
 const container = document.getElementById('root')
 const root = createRoot(container!)
@@ -25,6 +26,7 @@ root.render(
     {/* <Gallery /> */}
     {/* <Team /> */}
     {/* <Blog /> */}
-    <Contact/>
+    {/* <Contact/> */}
+    <AllRoutes/>
   </React.StrictMode>,
 )

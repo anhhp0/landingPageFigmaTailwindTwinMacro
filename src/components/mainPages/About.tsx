@@ -38,16 +38,16 @@ const About = () => (
           </div>
 
           {/* Navigation  */}
-                </div>
-                <AboutSite/>
+        </div>
+        <AboutSite />
       </div>
 
       <div tw="flex flex-col gap-y-8 px-4 w-screen">
         <ProfessionalTeams />
       </div>
-            <BusinessSlogan />
-            <VisionMission />
-            <OurClients/>
+      <BusinessSlogan />
+      <VisionMission />
+      <OurClients />
       <div tw="container w-screen">
         <Footer />
       </div>

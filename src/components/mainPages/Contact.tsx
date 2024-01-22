@@ -2,10 +2,9 @@ import tw from 'twin.macro'
 import MainLogoBlue from '../logos/mainLogoBlue'
 import MainMenuBgWhite from '../mainMenu/MainMenuBgWhite'
 import Footer from '../footer/Footer'
+import GetInTouch from '../contact/getInTouch'
 import ContactUsContactSite from '../contact/mainContactUsContactSite'
 import Map from '../contact/assets/map.svg'
-import GetInTouch from '../contact/getInTouch'
-
 
 const styles = {
   // Move long class sets out of jsx to keep it scannable
@@ -39,7 +38,7 @@ const Contact = () => (
       </div>
       <ContactUsContactSite />
       <img src={Map} />
-      <GetInTouch/>
+      <GetInTouch />
       <div tw="container w-screen">
         <Footer />
       </div>

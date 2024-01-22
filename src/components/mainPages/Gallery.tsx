@@ -40,9 +40,9 @@ const Gallery = () => (
         <OurGallery />
       </div>
       <div tw="">
-        <ThumbnailVideoTour/>
+        <ThumbnailVideoTour />
       </div>
-<GetTheQuota/>
+      <GetTheQuota />
       <div tw="container w-screen">
         <Footer />
       </div>

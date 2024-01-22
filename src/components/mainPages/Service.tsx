@@ -4,8 +4,6 @@ import MainMenuBgWhite from '../mainMenu/MainMenuBgWhite'
 
 import Footer from '../footer/Footer'
 
-
-
 import OurServices from '../ourServices/OurServices'
 import TreatmentVideo from '../ourServices/TreatmentVideo'
 import ServicesFAQ from '../servicesFAQ/ServicesFAQ'

@@ -36,15 +36,15 @@ const Team = () => (
             {' '}
             <MainMenuBgWhite />
           </div>
-                </div>
+        </div>
       </div>
 
       <div tw="flex flex-col gap-y-8 px-4 w-screen">
         <ProfessionalTeams />
       </div>
-      <AssistanceTeam/>
+      <AssistanceTeam />
       <TeamSlogan />
-      <OurTestimonials/>
+      <OurTestimonials />
       <div tw="container w-screen">
         <Footer />
       </div>

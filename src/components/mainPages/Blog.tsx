@@ -38,13 +38,13 @@ const Blog = () => (
             {' '}
             <MainMenuBgWhite />
           </div>
-                </div>
+        </div>
       </div>
 
       <div tw="flex flex-col gap-y-8 px-4 w-screen">
-   <BlogThumbnail/>
+        <BlogThumbnail />
       </div>
-      <BlogSite/>
+      <BlogSite />
       <div tw="container w-screen">
         <Footer />
       </div>
