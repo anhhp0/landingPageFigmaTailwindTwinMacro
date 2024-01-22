@@ -6,6 +6,8 @@ interface PinkButtonProps {
     | 'moreDetailSlider'
     | 'learnMoreAboutUs'
     | 'sendMessageContactUs'
+    | 'makeAnAppointmentGallery'
+    | 'readMoreBlog'
 }
 
 const PinkButton = styled.button(({ variant }: PinkButtonProps) => [
@@ -24,6 +26,10 @@ const PinkButton = styled.button(({ variant }: PinkButtonProps) => [
     tw`bg-pink-400 text-white [font-weight: 600] [width: 200px] [height: 58.36px]`,
   variant === 'sendMessageContactUs' &&
     tw`bg-pink-400 text-white [font-weight: 600] [width: 248px] [height: 58px]`,
+  variant === 'makeAnAppointmentGallery' &&
+    tw`bg-pink-400 text-white [font-weight: 600] [width: 316px] [height: 58px]`,
+  variant === 'readMoreBlog' &&
+    tw`bg-pink-400 text-white [font-weight: 600] [width: 226px] [height: 58px]`,
 ])
 
 export default PinkButton

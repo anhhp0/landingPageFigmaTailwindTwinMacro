@@ -10,8 +10,6 @@ import ProfessionalTeams from '../professionalTeam/professionalTeam'
 import ContactUs from '../contactUs/ContactUs'
 import ContactUsBg from '../contactUs/ContactUsBg'
 import Footer from '../footer/Footer'
-import BottomBg from '../footer/bottomBg'
-import FooterBg from '../footer/footerBg'
 
 const styles = {
   // Move long class sets out of jsx to keep it scannable
