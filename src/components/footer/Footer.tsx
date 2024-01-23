@@ -54,7 +54,6 @@ const Footer = () => (
         </div>
         {/* Logo + address  */}
         {/* .............. */}
-
         <div tw="flex flex-row px-10 gap-x-72 max-md:gap-x-36">
           {/* Page  */}
           <div tw="flex flex-col gap-6">
@@ -139,8 +138,10 @@ const Footer = () => (
         </div>
       </div>
       {/* Scroll to top  */}
-
-      {/* Scroll to top  */}
+      {/* . 
+      . 
+      .  */}
+      {/* Social icon + copyright  */}
       <div tw="flex flex-row flex-wrap gap-4 justify-center [text-align: center]">
         <div tw="w-1/2 max-md:w-full ">
           <div tw="flex flex-row gap-10 max-md:place-content-center">
