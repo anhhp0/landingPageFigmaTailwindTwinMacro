@@ -10,9 +10,9 @@ import LinkedinColorBgIcon from '../socialicons/linkedinColorBg'
 import YoutubeColorBgIcon from '../socialicons/youtubeColorBg'
 import InstagramColorBgIcon from '../socialicons/instagramColorBg'
 
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
-  }
+const scrollToTop = () => {
+  window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
+}
 
 const TypeTextAddress = styled.div(() => [
   tw`text-[14px] [font-weight: 500] italic text-[#D7DBFF] [text-align: left]`,
@@ -31,7 +31,7 @@ const Footer = () => (
     <BottomBg />
     <FooterBg />
     <div tw="flex flex-col [text-align:center] [margin-top: -500px] gap-5 w-screen">
-      <div tw="flex flex-row flex-wrap max-md:flex-col max-md:[margin-top: -110px]">
+      <div tw="flex flex-row flex-wrap  max-md:[margin-top: -110px]">
         {/* Logo + address  */}
         <div tw="flex flex-col px-24 gap-4">
           {/* Logo  */}
@@ -109,14 +109,14 @@ const Footer = () => (
           {/* Infomation  */}
         </div>
       </div>
-
-      <div tw="flex flex-row flex-wrap w-screen max-md:flex-col">
+      {/* scroll to top  */}
+      <div tw="flex flex-row flex-wrap w-screen ">
         <div tw="flex w-1/2"></div>
-        <div tw="flex flex-row flex-wrap w-1/2 max-md:flex-col">
+        <div tw="flex flex-row flex-wrap w-1/2 ">
           <div tw="flex w-1/2"></div>
-          <div tw="flex flex-row flex-wrap w-1/2 max-md:flex-col">
+          <div tw="flex flex-row flex-wrap w-1/2 ">
             <div tw="flex w-1/2"></div>
-            <div tw="flex flex-row flex-wrap w-1/2 max-md:flex-col">
+            <div tw="flex flex-row flex-wrap w-1/2 ">
               <div tw="">
                 <button onClick={scrollToTop}>
                   <svg
@@ -142,16 +142,16 @@ const Footer = () => (
 
       {/* Scroll to top  */}
       <div tw="flex flex-row flex-wrap gap-4 justify-center [text-align: center]">
-                <div tw='w-1/2 max-md:w-full '>
-                    <div tw='flex flex-row gap-10 max-md:place-content-center'>
-                        <FbColorBgIcon />
-                        <TwitterColorBgIcon />
-                        <LinkedinColorBgIcon />
-                        <YoutubeColorBgIcon />
-                        <InstagramColorBgIcon/>
-                    </div>
+        <div tw="w-1/2 max-md:w-full ">
+          <div tw="flex flex-row gap-10 max-md:place-content-center">
+            <FbColorBgIcon />
+            <TwitterColorBgIcon />
+            <LinkedinColorBgIcon />
+            <YoutubeColorBgIcon />
+            <InstagramColorBgIcon />
+          </div>
         </div>
-        <TypeTextInfo tw='italic'>
+        <TypeTextInfo tw="italic">
           © AltDesain Studio 2021 - All right reserved.
         </TypeTextInfo>
       </div>

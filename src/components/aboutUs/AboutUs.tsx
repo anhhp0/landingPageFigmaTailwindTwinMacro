@@ -26,9 +26,9 @@ const AboutUs = () => (
         </TextTitle>
       </div>
       {/* Button  */}
-      <div tw="flex flex-row pl-8">
+      <div tw="flex flex-row pl-8 max-md:flex-col">
         <PinkButton variant="learnMoreAboutUs">Learn More</PinkButton>
-        <NavButton tw="flex flex-row pl-16 place-content-center">
+        <NavButton tw="flex flex-row pl-16 place-content-center max-md:pl-0 max-md:place-content-start">
           <svg
             width="49"
             height="50"
