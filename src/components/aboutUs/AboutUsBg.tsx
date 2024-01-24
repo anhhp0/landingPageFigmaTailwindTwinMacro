@@ -7,8 +7,8 @@ const AboutUsBg: React.FC = () => {
     <div tw="absolute [z-index: -10] right-0 inline-flex mt-36">
       <stop stop-color="#E4E7FF" />
       <svg
-        width="947"
-        height="100%"
+        width="100%"
+        height="1029"
         viewBox="0 0 947 1029"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

@@ -21,9 +21,10 @@ const styles = {
 
 const Home1 = () => (
   <div css={styles.container({ hasBackground: true })}>
-    <div tw="grid [grid-row: auto] gap-y-5">
+    <NavBarSliderBg tw="top-0 left-0" />
+    <div tw="flex flex-col gap-y-5">
       {/* background  */}
-      <NavBarSliderBg />
+
       {/* Main Header Menu + Slider  */}
       <div tw="flex flex-col gap-y-2 px-4 py-8 px-8">
         {/* Main Header Menu  */}

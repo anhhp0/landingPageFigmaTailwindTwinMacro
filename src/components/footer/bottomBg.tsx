@@ -11,7 +11,7 @@ const BottomBg: React.FC = () => {
         viewBox="0 0 1440 125"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        tw='relative [z-index: -10] left-0 [bottom: -706px]'
+        tw='relative [z-index: -10] left-0 [bottom: -706px]  max-sm:hidden'
       >
         <rect
           width="1440"

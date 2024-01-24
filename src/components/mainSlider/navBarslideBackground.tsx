@@ -6,15 +6,15 @@ import tw from "twin.macro";
 const NavBarSliderBg: React.FC = () => {
   return (
     // <div sx={{ position: "absolute", zIndex: -10, left: 0, display: "inline-flex"}}>
-    <div tw="absolute [z-index: -10] left-0 inline-flex">
+    <div tw="absolute [z-index: -10] top-0 left-0 inline-flex [margin-top: -250px] max-sm:[margin-top: -400px] max-md:[margin-top: -500px]">
 
       <svg
-        width="1267"
-        height="100%"
+        width="100%"
+        height="1029"
         viewBox="0 0 1267 743"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        
+        style={{top:0}}
       >
         <path
           d="M1249.55 184.986C1285.57 102.347 1255.64 27.2292 1236.17 0H0V501.363C24.1989 565.474 88.4137 711.849 236.446 736.053C403.097 763.301 515.071 705.366 571.039 649.611C627.008 593.856 705.405 511.222 844.797 461.167C1031.36 394.175 1204.54 288.284 1249.55 184.986Z"

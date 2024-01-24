@@ -27,11 +27,11 @@ const TypeTextInfo = styled.div(() => [
 ])
 
 const Footer = () => (
-  <div tw="flex flex-col absolute">
-    <BottomBg />
-    <FooterBg />
-    <div tw="flex flex-col [text-align:center] [margin-top: -500px] gap-5 w-screen">
-      <div tw="flex flex-row flex-wrap  max-md:[margin-top: -110px]">
+  <div tw="flex flex-col absolute max-sm:bg-[#172176] max-sm:w-screen max-sm:[height: auto] max-sm:[padding-top: 50px]">
+    <BottomBg tw="max-md:hidden" />
+    <FooterBg tw="max-md:hidden" />
+    <div tw="flex flex-col [text-align:center] [margin-top: -500px] gap-5 w-screen max-sm:[margin-top: 0]">
+      <div tw="flex flex-row flex-wrap  max-md:[margin-top: -110px] max-sm:[margin-top: 0]">
         {/* Logo + address  */}
         <div tw="flex flex-col px-24 gap-4">
           {/* Logo  */}
@@ -109,7 +109,7 @@ const Footer = () => (
         </div>
       </div>
       {/* scroll to top  */}
-      <div tw="flex flex-row flex-wrap w-screen ">
+      <div tw="flex flex-row flex-wrap w-full ">
         <div tw="flex w-1/2"></div>
         <div tw="flex flex-row flex-wrap w-1/2 ">
           <div tw="flex w-1/2"></div>
