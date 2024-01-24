@@ -60,7 +60,7 @@ const Home1 = () => (
      */}
       {/* Main services + About Us  */}
       {/* <div tw="flex flex-col h-full gap-y-1 px-4 py-2"> */}
-      <div tw="flex flex-col gap-y-2 px-4 max-md:[margin-top: -400px] px-8">
+      <div tw="flex flex-col gap-y-2 max-md:[margin-top: -400px] px-8">
         {/* Main services  */}
         <AboutUsBg />
         <div tw="">
