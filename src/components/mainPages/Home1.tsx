@@ -21,7 +21,7 @@ const styles = {
 
 const Home1 = () => (
   <div css={styles.container({ hasBackground: true })}>
-    <NavBarSliderBg tw="top-0 left-0" />
+    <NavBarSliderBg tw="top-0 left-0 max-w-[1440px]" />
     <div tw="flex flex-col gap-y-5">
       {/* background  */}
 
