@@ -31,7 +31,7 @@ const ServicesFAQ = () => (
         </svg>
       </div>
     </div>
-    <div tw="flex flex-col gap-3 mx-64 max-md:mx-auto">
+    <div tw="flex flex-col gap-3 mx-64 max-md:mx-auto max-sm:mx-3">
       <div tw="flex flex-col gap-5 ">
         <div tw="flex flex-row">
           <TextTitle variant="slogan" tw="text-base [width: 97.5%]">
