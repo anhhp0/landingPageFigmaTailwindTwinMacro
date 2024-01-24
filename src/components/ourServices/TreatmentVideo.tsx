@@ -15,8 +15,8 @@ const TreatmentVideo: React.FC = () => {
       />
       <div tw="absolute  h-full flex justify-center items-center top-0">
         <svg
-          width="1440"
-          height="529"
+          width="100%"
+          height="100%"
           viewBox="0 0 1440 529"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -24,7 +24,7 @@ const TreatmentVideo: React.FC = () => {
           <rect width="1440" height="529" fill="#091156" fill-opacity="0.6" />
         </svg>
       </div>
-      <div tw="container flex flex-row">
+      <div tw="container flex flex-row max-md:scale-50">
         <div tw="flex flex-col gap-y-2 w-fit h-fit absolute justify-center [top: 35%] [left: 10%]">
           <TextTitle variant="sloganWhite" >
             Best responsibility and service

@@ -5,7 +5,7 @@ import TextTitle from '../textTile/Title'
 
 const TeamSlogan: React.FC = () => {
   return (
-    <div tw="container relative mx-auto">
+    <div tw="container relative mx-auto ">
       <img
         tw="[z-index: -10]"
         src={ThumbnailTeamSlogan}
@@ -22,7 +22,7 @@ const TeamSlogan: React.FC = () => {
           <rect width="1440" height="529" fill="#091156" fill-opacity="0.6" />
         </svg>
       </div>
-      <div tw="flex flex-col gap-y-2 absolute w-full h-full flex justify-center items-center top-0">
+      <div tw="flex flex-col gap-y-2 absolute w-full h-full flex justify-center items-center top-0 max-md:scale-50">
         <TextTitle variant="sloganWhite" tw="[text-align: center]">
           Customer satisfaction is<br/> our main goal
         </TextTitle>

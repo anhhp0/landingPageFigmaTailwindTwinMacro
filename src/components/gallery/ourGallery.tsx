@@ -16,9 +16,9 @@ import GalleryImg9 from './assets/unsplash_4SUyx4KQ5Ik.svg'
 
 
 const OurGallery = () => (
-  <div tw="flex flex-col w-full justify-center gap-y-4">
+  <div tw="flex flex-col justify-center gap-y-4 mx-auto">
     {/* Title  */}
-    <div tw="flex flex-row flex-wrap gap-x-64 max-md:w-screen">
+    <div tw="flex flex-row flex-wrap gap-x-64">
       <div tw="flex flex-col gap-3">
         <TextTitle variant="title">Our Gallery</TextTitle>
         <TextTitle variant="slogan">
