@@ -152,7 +152,7 @@ const Footer = () => (
             <InstagramColorBgIcon />
           </div>
         </div>
-        <TypeTextInfo tw="italic">
+        <TypeTextInfo tw="">
           © AltDesain Studio 2021 - All right reserved.
         </TypeTextInfo>
       </div>
