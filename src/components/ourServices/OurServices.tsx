@@ -19,9 +19,9 @@ const BlueTextButton = styled.button(() => [
   // Use props to conditionally style your components
 ])
 const OurServices = () => (
-  <div tw="flex flex-col w-screen justify-center gap-y-4">
+  <div tw="flex flex-col justify-center gap-y-4">
     {/* Title  */}
-    <div tw="flex flex-col flex-wrap w-screen gap-3 justify-center [text-align: center]">
+    <div tw="flex flex-col flex-wrap gap-3 justify-center [text-align: center]">
       <TextTitle variant="title">Our Services</TextTitle>
       <TextTitle variant="slogan">We focus on your beauty</TextTitle>
       <TextTitle variant="desc">Lorem ipsum dolor sit amet</TextTitle>
@@ -38,7 +38,7 @@ const OurServices = () => (
         <img src={SquareImg1} alt="SquareImg1" tw="lg:hidden" />
       </div>
       {/* Animation  */}
-      <div tw="flex flex-col gap-8 w-screen">
+      <div tw="flex flex-col gap-8 ">
         {/* Animation 1  */}
         <div tw="flex flex-wrap gap-32 justify-center mx-auto">
           <img src={Animation1} alt="Animation1" />

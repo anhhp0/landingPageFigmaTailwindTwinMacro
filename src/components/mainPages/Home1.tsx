@@ -63,7 +63,7 @@ const Home1 = () => (
       <div tw="flex flex-col gap-y-2 px-4 max-md:[margin-top: -400px] px-8">
         {/* Main services  */}
         <AboutUsBg />
-        <div tw="w-screen">
+        <div tw="">
           <MainServicesHome1 />
         </div>
         {/* Main services  */}
@@ -71,7 +71,7 @@ const Home1 = () => (
         . 
         .  */}
         {/* About Us  */}
-        <div tw="w-screen">
+        <div tw="">
           <AboutUs />
         </div>
 
@@ -83,11 +83,11 @@ const Home1 = () => (
       .  */}
       {/* Professional team + Contact Us  */}
       <ContactUsBg />
-      <div tw="flex flex-col gap-y-8 px-4 w-screen">
+      <div tw="flex flex-col gap-y-8 px-4">
         <ProfessionalTeams />
       </div>
       {/* Professional team + Contact Us  */}
-      <div tw="flex flex-col gap-y-8 px-4 w-screen">
+      <div tw="flex flex-col gap-y-8 px-4 ">
         {' '}
         <ContactUs />
       </div>

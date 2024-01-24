@@ -11,14 +11,14 @@ import ServicesFAQ from '../servicesFAQ/ServicesFAQ'
 const styles = {
   // Move long class sets out of jsx to keep it scannable
   container: ({ hasBackground }: { hasBackground: boolean }) => [
-    tw`flex flex-col h-screen w-full max-w-[1440px] [font-family: Poppins]`,
+    tw`flex flex-col h-screen max-w-[1440px] [font-family: Poppins]`,
     // hasBackground && tw`bg-gradient-to-b from-electric to-ribbon`,
   ],
 }
 
 const Service = () => (
   <div css={styles.container({ hasBackground: true })}>
-    <div tw="grid [grid-row: auto] gap-y-28 w-screen">
+    <div tw="grid [grid-row: auto] gap-y-28 ">
       {/* background  */}
 
       {/* Main Header Menu */}
@@ -41,7 +41,7 @@ const Service = () => (
         </div>
         <OurServices />
       </div>
-      <div tw=" w-screen">
+      <div tw="">
         <TreatmentVideo />
       </div>
 

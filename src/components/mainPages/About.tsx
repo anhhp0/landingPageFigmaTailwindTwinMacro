@@ -11,14 +11,14 @@ import OurClients from '../ourClients/OurClients'
 const styles = {
   // Move long class sets out of jsx to keep it scannable
   container: ({ hasBackground }: { hasBackground: boolean }) => [
-    tw`flex flex-col h-screen w-full max-w-[1440px] [font-family: Poppins]`,
+    tw`flex flex-col h-screen max-w-[1440px] [font-family: Poppins]`,
     // hasBackground && tw`bg-gradient-to-b from-electric to-ribbon`,
   ],
 }
 
 const About = () => (
   <div css={styles.container({ hasBackground: true })}>
-    <div tw="grid [grid-row: auto] gap-y-28 w-screen">
+    <div tw="grid [grid-row: auto] gap-y-28">
       {/* background  */}
 
       {/* Main Header Menu */}
@@ -42,12 +42,15 @@ const About = () => (
         <AboutSite />
       </div>
 
-      <div tw="flex flex-col gap-y-8 px-4 w-screen">
+      <div tw="flex flex-col gap-y-8 px-4 ">
         <ProfessionalTeams />
       </div>
-      <BusinessSlogan />
-      <VisionMission />
-      <OurClients />
+      {/* <div tw="flex flex-col w-[1440px] gap-4"> */}
+        <BusinessSlogan />
+        <VisionMission />
+        <OurClients />
+      {/* </div> */}
+
       <div tw="container w-screen">
         <Footer />
       </div>

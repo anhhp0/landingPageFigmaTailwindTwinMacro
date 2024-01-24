@@ -13,7 +13,7 @@ const TreatmentVideo: React.FC = () => {
         alt="thumbnailTreatmentVideo"
 
       />
-      <div tw="absolute w-full h-full flex justify-center items-center top-0">
+      <div tw="absolute  h-full flex justify-center items-center top-0">
         <svg
           width="1440"
           height="529"

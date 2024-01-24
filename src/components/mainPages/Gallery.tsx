@@ -16,7 +16,7 @@ const styles = {
 
 const Gallery = () => (
   <div css={styles.container({ hasBackground: true })}>
-    <div tw="grid [grid-row: auto] gap-y-28 w-screen">
+    <div tw="grid [grid-row: auto] gap-y-28 ">
       {/* background  */}
 
       {/* Main Header Menu */}

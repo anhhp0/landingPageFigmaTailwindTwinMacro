@@ -4,8 +4,8 @@ import AnimationVision from './visionAnimation'
 
 
 const VisionMission = () => (
-  <div tw="flex flex-col w-screen justify-center gap-y-4 mx-auto">
-    <div tw="flex flex-row flex-wrap w-screen gap-x-3 justify-center max-md:flex-col max-md:gap-y-3">
+  <div tw="flex flex-col gap-y-4 mx-auto ">
+    <div tw="flex flex-row flex-wrap  gap-x-3 justify-center max-md:flex-col max-md:gap-y-3">
       <AnimationVision />
       <div tw="flex flex-col flex-wrap gap-2 my-auto mx-4">
         <TextTitle variant="title">Our Vision</TextTitle>
@@ -20,7 +20,7 @@ const VisionMission = () => (
         </TextTitle>
       </div>
     </div>
-    <div tw="flex flex-row flex-wrap w-screen gap-x-3 justify-center max-md:flex-col max-md:gap-y-3">
+    <div tw="flex flex-row flex-wrap gap-x-3 justify-center max-md:flex-col max-md:gap-y-3">
       <div tw="flex flex-col flex-wrap gap-2 my-auto mx-4">
         <TextTitle variant="title">Our Mission</TextTitle>
         <TextTitle variant="slogan">

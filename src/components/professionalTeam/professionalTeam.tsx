@@ -5,7 +5,7 @@ import DermatologistProfessional from './professionalDermatologist'
 import StylistProfessional from './professionalStylist'
 
 const ProfessionalTeams = () => (
-  <div tw="flex flex-col justify-center [row-gap: 5.5rem] [text-align: center]">
+  <div tw="flex flex-col justify-center [row-gap: 5.5rem] [text-align: center] w-[1440px]">
     <div tw="flex flex-col gap-y-5">
       <TextTitle variant="title">Professional Teams</TextTitle>
       <TextTitle variant="slogan">The Professional expert</TextTitle>

@@ -18,7 +18,7 @@ const styles = {
 
 const Team = () => (
   <div css={styles.container({ hasBackground: true })}>
-    <div tw="grid [grid-row: auto] w-screen gap-24">
+    <div tw="grid [grid-row: auto]  gap-24">
       {/* background  */}
 
       {/* Main Header Menu */}
@@ -39,7 +39,7 @@ const Team = () => (
         </div>
       </div>
 
-      <div tw="flex flex-col gap-y-8 px-4 w-screen">
+      <div tw="flex flex-col gap-y-8 px-4">
         <ProfessionalTeams />
       </div>
       <AssistanceTeam />

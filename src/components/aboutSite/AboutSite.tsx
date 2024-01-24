@@ -17,9 +17,8 @@ import ThumbnailAboutSite from './ThumbnailAboutSite'
          purus sit amet luctus venenatis
        </TextTitle>
      </div>
-     <div tw="container">
+     <div tw="container max-sm:[margin-left: 50px]">
        <ThumbnailAboutSite />
-
      </div>
    </div>
  )

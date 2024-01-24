@@ -41,7 +41,7 @@ const Blog = () => (
         </div>
       </div>
 
-      <div tw="flex flex-col gap-y-8 px-4 w-screen">
+      <div tw="flex flex-col gap-y-8 px-4 ">
         <BlogThumbnail />
       </div>
       <BlogSite />

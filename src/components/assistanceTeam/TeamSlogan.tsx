@@ -11,10 +11,10 @@ const TeamSlogan: React.FC = () => {
         src={ThumbnailTeamSlogan}
         alt="thumbnailTeamSlogan"
       />
-      <div tw="absolute w-full h-full flex justify-center items-center top-0">
+      <div tw="absolute  h-full flex justify-center items-center top-0">
         <svg
           width="100%"
-          height="529"
+          height="100%"
           viewBox="0 0 1440 529"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
