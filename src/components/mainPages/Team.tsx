@@ -11,7 +11,7 @@ import OurTestimonials from '../assistanceTeam/OurTestimonials'
 const styles = {
   // Move long class sets out of jsx to keep it scannable
   container: ({ hasBackground }: { hasBackground: boolean }) => [
-    tw`flex flex-col h-screen w-full max-w-[1440px] [font-family: Poppins]`,
+    tw`flex flex-col h-screen w-screen [font-family: Poppins]`,
     // hasBackground && tw`bg-gradient-to-b from-electric to-ribbon`,
   ],
 }
@@ -24,7 +24,7 @@ const Team = () => (
       {/* Main Header Menu */}
       <div tw="flex flex-col gap-y-2  py-8 px-8">
         {/* Main Header Menu  */}
-        <div tw="flex flex-row flex-wrap place-items-center pb-36">
+        <div tw="flex flex-row flex-wrap place-items-center pb-36 lg:justify-center">
           {/* Logo header  */}
           <div tw="flex-none justify-items-start mr-32">
             <MainLogoBlue />

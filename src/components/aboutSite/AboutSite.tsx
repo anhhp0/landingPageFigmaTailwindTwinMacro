@@ -5,8 +5,8 @@ import ThumbnailAboutSite from './ThumbnailAboutSite'
 
 
  const AboutSite = () => (
-   <div tw="flex flex-col gap-y-5 px-8">
-     <div tw="flex flex-col gap-y-2">
+   <div tw="flex flex-col gap-y-5 mx-auto justify-center">
+     <div tw="flex flex-col gap-y-2 justify-center">
        <TextTitle variant="title">About</TextTitle>
        <TextTitle variant="slogan">
          We are a leading beauty clinic that has <br /> been around since 2002

@@ -6,7 +6,7 @@ import AngleDown from './assets/angle-down.svg'
 
 
 const ServicesFAQ = () => (
-  <div tw="flex flex-col gap-y-5 justify-center max-md:mx-2">
+  <div tw="flex flex-col gap-y-5 justify-center max-md:mx-2 max-w-[1440px] mx-auto">
     <div tw="flex flex-col gap-3 justify-center [text-align: center]">
       <TextTitle variant="slogan" tw="justify-center">
         Services FAQ’s

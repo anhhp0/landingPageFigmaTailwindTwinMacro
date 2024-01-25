@@ -4,7 +4,7 @@ import ThumbnailAboutSite1 from './assets/unsplash_DE6rYp1nAho.svg'
 
 const ThumbnailAboutSite: React.FC = () => {
   return (
-    <div tw="container relative [margin-left: -65px] ">
+    <div tw="container flex relative [margin-left: -65px] lg:justify-center ">
       <img tw="w-full h-full" src={ThumbnailAboutSite1} alt="thumbnailAboutSite" />
       {/* Play button  */}
       <button tw="absolute top-[34%] left-[43%] max-md:scale-50 max-sm:[top: -1%] max-sm:[left: 24%]">

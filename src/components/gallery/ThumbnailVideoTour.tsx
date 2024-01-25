@@ -6,7 +6,7 @@ import TextTitle from '../textTile/Title'
 
 const ThumbnailVideoTour: React.FC = () => {
   return (
-    <div tw="container relative">
+    <div tw="container relative mx-auto">
       <img
         tw="w-full [z-index: -8]"
         src={ThumbnailVideoTour1}

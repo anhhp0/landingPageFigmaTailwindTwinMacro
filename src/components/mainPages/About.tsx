@@ -11,7 +11,7 @@ import OurClients from '../ourClients/OurClients'
 const styles = {
   // Move long class sets out of jsx to keep it scannable
   container: ({ hasBackground }: { hasBackground: boolean }) => [
-    tw`flex flex-col h-screen max-w-[1440px] [font-family: Poppins]`,
+    tw`flex flex-col h-screen w-screen [font-family: Poppins]`,
     // hasBackground && tw`bg-gradient-to-b from-electric to-ribbon`,
   ],
 }
@@ -22,9 +22,9 @@ const About = () => (
       {/* background  */}
 
       {/* Main Header Menu */}
-      <div tw="flex flex-col gap-y-2  py-8 px-8">
+      <div tw="flex flex-col gap-y-2 py-8 px-8 justify-center">
         {/* Main Header Menu  */}
-        <div tw="flex flex-row flex-wrap place-items-center pb-36">
+        <div tw="flex flex-row flex-wrap place-items-center pb-36 lg:justify-center">
           {/* Logo header  */}
           <div tw="flex-none justify-items-start mr-32">
             <MainLogoBlue />
@@ -46,9 +46,9 @@ const About = () => (
         <ProfessionalTeams />
       </div>
       {/* <div tw="flex flex-col w-[1440px] gap-4"> */}
-        <BusinessSlogan />
-        <VisionMission />
-        <OurClients />
+      <BusinessSlogan />
+      <VisionMission />
+      <OurClients />
       {/* </div> */}
 
       <div tw="container w-screen">
