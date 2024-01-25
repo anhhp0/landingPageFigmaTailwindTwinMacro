@@ -2,8 +2,7 @@ import AssistanceTeam from '../components/AssistanceTeam/AssistanceTeam'
 import OurTestimonials from '../components/AssistanceTeam/OurTestimonials'
 import TeamSlogan from '../components/AssistanceTeam/TeamSlogan'
 import ProfessionalTeams from '../components/ProfessionalTeam/ProfessionalTeam'
-import Layout from '../layout'
-
+import Layout from '../layout/layout'
 
 const Blog = () => {
   return (
@@ -11,7 +10,7 @@ const Blog = () => {
       <ProfessionalTeams />
       <AssistanceTeam />
       <TeamSlogan />
-      <OurTestimonials/>
+      <OurTestimonials />
     </Layout>
   )
 }

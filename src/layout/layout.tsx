@@ -1,11 +1,10 @@
 import React, { ReactNode } from 'react'
-import Header from './components/Header/Header'
-import Footer from './components/Footer/Footer'
-import tw from 'twin.macro';
-
+import Header from '../components/Header/Header'
+import Footer from '../components/Footer/Footer'
+import tw from 'twin.macro'
 
 interface LayoutProps {
-    children: ReactNode;
+  children: ReactNode
 }
 const styles = {
   // Move long class sets out of jsx to keep it scannable
@@ -20,9 +19,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
     <div css={styles.container({ hasBackground: true })}>
       <div tw="flex flex-col gap-16">
         <Header />
-        <div tw='flex flex-col gap-16'>
-          {children}
-        </div>
+        <div tw="flex flex-col gap-16">{children}</div>
 
         <div tw="container w-screen">
           <Footer />

@@ -1,11 +1,10 @@
 import tw from 'twin.macro'
-import Layout from '../layout'
+import Layout from '../layout/layout'
 import AboutSite from '../components/AboutSite/AboutSite'
 import ProfessionalTeams from '../components/ProfessionalTeam/ProfessionalTeam'
 import BusinessSlogan from '../components/BusinessSlogan/BusinessSlogan'
 import VisionMission from '../components/VisionMission/VisionMission'
 import OurClients from '../components/OurClients/OurClients'
-
 
 const About = () => {
   return (
@@ -14,7 +13,7 @@ const About = () => {
       <ProfessionalTeams />
       <BusinessSlogan />
       <VisionMission />
-      <OurClients/>
+      <OurClients />
     </Layout>
   )
 }
