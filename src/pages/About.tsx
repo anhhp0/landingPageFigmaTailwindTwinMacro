@@ -7,6 +7,7 @@ import AboutSite from '../components/aboutSite/AboutSite'
 import BusinessSlogan from '../components/businessSlogan/BusinessSlogan'
 import VisionMission from '../components/VisionMission/VisionMission'
 import OurClients from '../components/ourClients/OurClients'
+import Header from '../components/Header/Header'
 
 const styles = {
   // Move long class sets out of jsx to keep it scannable
@@ -24,21 +25,7 @@ const About = () => (
       {/* Main Header Menu */}
       <div tw="flex flex-col gap-y-2 py-8 px-8 justify-center">
         {/* Main Header Menu  */}
-        <div tw="flex flex-row flex-wrap place-items-center pb-36 lg:justify-center">
-          {/* Logo header  */}
-          <div tw="flex-none justify-items-start mr-32">
-            <MainLogoBlue />
-          </div>
-          {/* Logo Header  */}
-          {/* /// */}
-          {/* Navigation  */}
-          <div tw="flex justify-end ">
-            {' '}
-            <MainMenuBgWhite />
-          </div>
-
-          {/* Navigation  */}
-        </div>
+        <Header/>
         <AboutSite />
       </div>
 

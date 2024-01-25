@@ -19,7 +19,7 @@ const BlueTextButton = styled.button(() => [
   // Use props to conditionally style your components
 ])
 const OurServices = () => (
-  <div tw="flex flex-col justify-center gap-y-4">
+  <div tw="flex flex-col justify-center gap-y-4 pt-8">
     {/* Title  */}
     <div tw="flex flex-col flex-wrap gap-3 justify-center [text-align: center]">
       <TextTitle variant="title">Our Services</TextTitle>

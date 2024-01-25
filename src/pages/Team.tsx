@@ -1,12 +1,13 @@
 import tw from 'twin.macro'
 import MainLogoBlue from '../components/Logos/MainLogoBlue'
-import MainMenuBgWhite from '../components/mainMenu/MainMenuBgWhite'
+import MainMenuBgWhite from '../components/MainMenu/MainMenuBgWhite'
 import ProfessionalTeams from '../components/ProfessionalTeam/ProfessionalTeam'
-import Footer from '../components/footer/Footer'
+import Footer from '../components/Footer/Footer'
 
-import AssistanceTeam from '../components/assistanceTeam/AssistanceTeam'
-import TeamSlogan from '../components/assistanceTeam/TeamSlogan'
-import OurTestimonials from '../components/assistanceTeam/OurTestimonials'
+import AssistanceTeam from '../components/AssistanceTeam/AssistanceTeam'
+import TeamSlogan from '../components/AssistanceTeam/TeamSlogan'
+import OurTestimonials from '../components/AssistanceTeam/OurTestimonials'
+import Header from '../components/Header/Header'
 
 const styles = {
   // Move long class sets out of jsx to keep it scannable
@@ -22,26 +23,11 @@ const Team = () => (
       {/* background  */}
 
       {/* Main Header Menu */}
-      <div tw="flex flex-col gap-y-2  py-8 px-8">
-        {/* Main Header Menu  */}
-        <div tw="flex flex-row flex-wrap place-items-center pb-36 lg:justify-center">
-          {/* Logo header  */}
-          <div tw="flex-none justify-items-start mr-32">
-            <MainLogoBlue />
-          </div>
-          {/* Logo Header  */}
-          {/* /// */}
-          {/* Navigation  */}
-          <div tw="flex justify-end ">
-            {' '}
-            <MainMenuBgWhite />
-          </div>
-        </div>
-      </div>
+<Header/>
 
       <div tw="flex flex-col gap-y-8 px-4">
         <ProfessionalTeams />
-      </div>
+      H</div>
       <AssistanceTeam />
       <TeamSlogan />
       <OurTestimonials />

@@ -1,12 +1,11 @@
 import tw from 'twin.macro'
 import MainLogoBlue from '../components/Logos/MainLogoBlue'
-import MainMenuBgWhite from '../components/mainMenu/MainMenuBgWhite'
-
-import Footer from '../components/footer/Footer'
-
-import OurServices from '../components/ourServices/OurServices'
-import TreatmentVideo from '../components/ourServices/TreatmentVideo'
-import ServicesFAQ from '../components/servicesFAQ/ServicesFAQ'
+import MainMenuBgWhite from '../components/MainMenu/MainMenuBgWhite'
+import Footer from '../components/Footer/Footer'
+import OurServices from '../components/OurServices/OurServices'
+import TreatmentVideo from '../components/OurServices/TreatmentVideo'
+import ServicesFAQ from '../components/ServicesFAQ/ServicesFAQ'
+import Header from '../components/Header/Header'
 
 const styles = {
   // Move long class sets out of jsx to keep it scannable
@@ -24,21 +23,7 @@ const Service = () => (
       {/* Main Header Menu */}
       <div tw="flex flex-col gap-y-2 py-8 px-8">
         {/* Main Header Menu  */}
-        <div tw="flex flex-row flex-wrap place-items-center pb-36 lg:justify-center">
-          {/* Logo header  */}
-          <div tw="flex-none justify-items-start mr-32">
-            <MainLogoBlue />
-          </div>
-          {/* Logo Header  */}
-          {/* /// */}
-          {/* Navigation  */}
-          <div tw="flex justify-end ">
-            {' '}
-            <MainMenuBgWhite />
-          </div>
-
-          {/* Navigation  */}
-        </div>
+<Header/>
         <OurServices />
       </div>
       <div tw="">

@@ -11,7 +11,7 @@ import GalleryImg8 from '../../assets/unsplash_PqyzuzFiQfY_1.svg'
 import GalleryImg9 from '../../assets/unsplash_4SUyx4KQ5Ik_1.svg'
 
 const OurGallery = () => (
-  <div tw="flex flex-col justify-center gap-y-4 mx-auto">
+  <div tw="flex flex-col justify-center gap-y-4 mx-auto pt-8">
     {/* Title  */}
     <div tw="flex flex-row flex-wrap gap-x-64">
       <div tw="flex flex-col gap-3">

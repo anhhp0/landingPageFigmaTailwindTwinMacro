@@ -7,7 +7,7 @@ import MainMenuBgWhite from '../MainMenu/MainMenuBgWhite'
 
 
 const Header = () => (
-  <div tw="flex flex-row flex-wrap place-items-center pb-0 lg:justify-center">
+  <div tw="flex flex-row flex-wrap place-items-center pb-0 mt-4 lg:justify-center">
     {/* Logo header  */}
     <div tw="flex-none justify-items-start mr-32">
       <MainLogoBlue />

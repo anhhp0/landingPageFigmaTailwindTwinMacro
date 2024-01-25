@@ -10,6 +10,7 @@ import ProfessionalTeams from '../components/ProfessionalTeam/ProfessionalTeam'
 import ContactUs from '../components/ContactUs/ContactUs'
 import ContactUsBg from '../components/ContactUs/ContactUsBg'
 import Footer from '../components/Footer/Footer'
+import Header from '../components/Header/Header'
 
 const styles = {
   // Move long class sets out of jsx to keep it scannable
@@ -28,21 +29,7 @@ const Home1 = () => (
       {/* Main Header Menu + Slider  */}
       <div tw="flex flex-col gap-y-2 py-8 px-8">
         {/* Main Header Menu  */}
-        <div tw="flex flex-row flex-wrap place-items-center pb-36 lg:justify-center">
-          {/* Logo header  */}
-          <div tw="flex-none justify-items-start mr-32">
-            <MainLogoBlue />
-          </div>
-          {/* Logo Header  */}
-          {/* /// */}
-          {/* Navigation  */}
-          <div tw="flex justify-end ">
-            {' '}
-            <MainMenuBgWhite />
-          </div>
-
-          {/* Navigation  */}
-        </div>
+  <Header/>
         {/* Main Header Menu */}
 
         {/* Main Slider  */}

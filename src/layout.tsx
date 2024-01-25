@@ -10,11 +10,11 @@ interface LayoutProps {
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
-    <>
+    <div tw='flex flex-col gap-8'>
       <Header />
       {children}
       <Footer  tw='container w-screen'/>
-    </>
+    </div>
   )
 }
 
