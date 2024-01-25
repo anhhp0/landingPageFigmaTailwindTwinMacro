@@ -1,6 +1,6 @@
 import tw, { styled } from 'twin.macro'
 
-import TextTitle from '../textTile/Title'
+import TextTitle from '../TextTile/Title'
 import FbWhiteBgIcon from '../Socialicons/FbWhiteBg'
 import TwitterWhiteBgIcon from '../Socialicons/TwitterWhiteBg'
 import InstagramWhiteBgIcon from '../Socialicons/InstagramWhiteBg'

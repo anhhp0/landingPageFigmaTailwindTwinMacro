@@ -1,7 +1,7 @@
 import tw from 'twin.macro'
 import React from 'react'
 import BlogThumbnail1 from '../../assets/unsplash_QA9fRIi6sFw.svg'
-import TextTitle from '../textTile/Title'
+import TextTitle from '../TextTile/Title'
 
 const BlogThumbnail: React.FC = () => {
   return (

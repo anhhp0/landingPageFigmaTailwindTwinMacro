@@ -1,6 +1,6 @@
 import tw from 'twin.macro'
 
-import TextTitle from '../textTile/Title'
+import TextTitle from '../TextTile/Title'
 import ThumbnailAboutUs from './ThumbnailAboutUs'
 import NavButton from '../Button/NavButton'
 import PinkButton from '../Button/PinkButton'

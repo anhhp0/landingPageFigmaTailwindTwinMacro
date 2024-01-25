@@ -4,7 +4,7 @@ import RecentPost1 from '../../assets/unsplash_xayCTz6N2nM.svg'
 import RecentPost2 from '../../assets/unsplash_DiJKOYIiNmQ.svg'
 import RecentPost3 from '../../assets/unsplash_yfmjALh1S6s.svg'
 
-import TextTitle from '../textTile/Title'
+import TextTitle from '../TextTile/Title'
 
 
 const RecentPost = () => (

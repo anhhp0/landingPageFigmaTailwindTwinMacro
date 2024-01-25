@@ -4,7 +4,7 @@ import ImgArticle2 from '../../assets/unsplash_7tDGb3HrITg.svg'
 import ImgArticle3 from '../../assets/unsplash_0_McYfdyEDA.svg'
 import CaretRight from '../../assets/caret-right.svg'
 import FolderIcon from '../../assets/folder.svg'
-import TextTitle from '../textTile/Title'
+import TextTitle from '../TextTile/Title'
 import PinkButton from '../Button/PinkButton'
 
 

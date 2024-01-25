@@ -1,6 +1,6 @@
 import tw, { styled } from 'twin.macro'
 import Search from '../../assets/search.svg'
-import TextTitle from '../textTile/Title'
+import TextTitle from '../TextTile/Title'
 import RecentPost from './RecentPosts'
 import CategoriesPost from './CategoriesPost'
 import CloudTags from './CloudTags'

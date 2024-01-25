@@ -1,7 +1,7 @@
 import tw from 'twin.macro'
 import React from 'react'
 import MapMaker from '../../assets/map-marker-alt.svg'
-import TextTitle from '../textTile/Title'
+import TextTitle from '../TextTile/Title'
 
 
 

@@ -1,5 +1,5 @@
 import tw from 'twin.macro'
-import TextTitle from '../textTile/Title'
+import TextTitle from '../TextTile/Title'
 import TestimonialsAvatar1 from '../../assets/unsplash_Z5g_6TLS6Ho.svg'
 import Star from '../../assets/star.svg'
 import ArrowLeft from '../../assets/arrow-left.svg'
