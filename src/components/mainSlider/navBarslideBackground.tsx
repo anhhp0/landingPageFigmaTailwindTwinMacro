@@ -12,7 +12,8 @@ const NavBarSliderBg: React.FC = () => {
     inline-flex
     [margin-top: -250px] [margin-left: -230px]
     max-sm:[margin-top: -400px] max-sm:[margin-left: 0px]
-    max-md:[margin-top: -500px] max-md:[margin-left: 0px]"
+    max-md:[margin-top: -500px] max-md:[margin-left: 0px]
+    lg:justify-center"
     >
       <svg
         width="100%"

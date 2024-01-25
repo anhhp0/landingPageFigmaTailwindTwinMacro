@@ -6,8 +6,8 @@ import NavButton from '../button/NavButton'
 import ThumbnailAboutUs from './ThumbnailAboutUs'
 
 const AboutUs = () => (
-  <div tw="flex flex-wrap gap-y-6 w-full">
-    <div tw="flex flex-col gap-y-5">
+  <div tw="flex flex-wrap gap-y-6 w-full justify-center">
+    <div tw="flex flex-col gap-y-5 ">
       <div tw="flex flex-col gap-y-5 pl-8">
         <TextTitle variant="title" tw="[text-align: left]">
           About Us
@@ -52,7 +52,7 @@ const AboutUs = () => (
         </NavButton>
       </div>
     </div>
-    <ThumbnailAboutUs tw="items-center pl-8 w-full" />
+    <ThumbnailAboutUs tw="items-center pl-8" />
   </div>
 )
 export default AboutUs

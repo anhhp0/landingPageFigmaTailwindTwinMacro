@@ -10,9 +10,9 @@ import ContactUsForm from './ContactForm'
 
 
 const ContactUs = () => (
-  <div tw="flex flex-col pt-36">
-    <div tw="flex flex-wrap flex-row max-md:flex-col ">
-      <div tw="flex w-1/2 max-md:w-full">
+  <div tw="flex flex-col pt-36 justify-center">
+    <div tw="flex flex-wrap flex-row max-md:flex-col justify-center ">
+      <div tw="flex max-md:w-full">
         <AnimationContactUs />
       </div>
       {/* Title and Desc  */}
@@ -28,11 +28,10 @@ const ContactUs = () => (
           <TextTitle variant="desc" tw="[text-align: left]">
             Lorem ipsum dolor sit amet nulla turapis tellus.
           </TextTitle>
-          <ContactUsForm/>
+          <ContactUsForm />
         </div>
 
         {/* Form  */}
-
       </div>
       {/* Title and Desc  */}
     </div>

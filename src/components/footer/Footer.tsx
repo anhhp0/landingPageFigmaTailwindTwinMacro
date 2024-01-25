@@ -1,6 +1,4 @@
 import tw, { styled } from 'twin.macro'
-
-import BottomBg from './bottomBg'
 import FooterBg from './footerBg'
 import MainLogoBlue from '../logos/mainLogoWhite'
 import CaretRight from './caretRight'
@@ -27,11 +25,14 @@ const TypeTextInfo = styled.div(() => [
 ])
 
 const Footer = () => (
-  <div tw="flex flex-col absolute  max-sm:bg-[#172176] max-sm:max-w-screen-sm max-sm:[height: auto] max-sm:[padding-top: 50px]">
-    <BottomBg tw="max-md:hidden" />
-    <FooterBg tw="max-md:hidden" />
-    <div tw="flex flex-col [text-align:center] [margin-top: -500px] gap-5  max-sm:[margin-top: 0]">
-      <div tw="flex flex-row flex-wrap  max-md:[margin-top: -110px] max-sm:[margin-top: 0]">
+  <div tw="flex flex-col absolute w-screen justify-between max-md:bg-[#172176] max-md:w-full max-md:[height: auto]  max-md:[padding-top: 20px]">
+    <FooterBg tw="w-screen [background-size: contain] max-md:hidden" />
+    <div tw="flex flex-col pt-16 [text-align:center]  [margin-top: -500px] gap-5  max-md:[margin-top: 0] ">
+      <div tw="flex flex-row flex-wrap w-screen justify-around 
+
+      max-md:[margin-top: -110px]
+      max-sm:[margin-top: 0]
+      ">
         {/* Logo + address  */}
         <div tw="flex flex-col px-24 gap-4">
           {/* Logo  */}
