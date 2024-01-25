@@ -15,6 +15,7 @@ import Blog from './pages/Blog'
 import Contact from './pages/Contact'
 import AllRoutes from './routes/AllRouter'
 
+
 const container = document.getElementById('root')
 const root = createRoot(container!)
 root.render(
@@ -28,5 +29,6 @@ root.render(
     {/* <Blog /> */}
     {/* <Contact/> */}
     <AllRoutes />
+  
   </React.StrictMode>,
 )

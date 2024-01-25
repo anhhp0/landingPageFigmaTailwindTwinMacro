@@ -7,13 +7,27 @@ import tw from 'twin.macro';
 interface LayoutProps {
     children: ReactNode;
 }
+const styles = {
+  // Move long class sets out of jsx to keep it scannable
+  container: ({ hasBackground }: { hasBackground: boolean }) => [
+    tw`flex flex-col h-screen w-screen [font-family: Poppins]`,
+    // hasBackground && tw`bg-gradient-to-b from-electric to-ribbon`,
+  ],
+}
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
-    <div tw='flex flex-col gap-8'>
-      <Header />
-      {children}
-      <Footer  tw='container w-screen'/>
+    <div css={styles.container({ hasBackground: true })}>
+      <div tw="flex flex-col gap-16">
+        <Header />
+        <div tw='flex flex-col gap-16'>
+          {children}
+        </div>
+
+        <div tw="container w-screen">
+          <Footer />
+        </div>
+      </div>
     </div>
   )
 }
