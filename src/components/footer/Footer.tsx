@@ -27,7 +27,7 @@ const TypeTextInfo = styled.div(() => [
 ])
 
 const Footer = () => (
-  <div tw="flex flex-col absolute  max-sm:bg-[#172176] max-sm:w-full max-sm:[height: auto] max-sm:[padding-top: 50px]">
+  <div tw="flex flex-col absolute  max-sm:bg-[#172176] max-sm:max-w-screen-sm max-sm:[height: auto] max-sm:[padding-top: 50px]">
     <BottomBg tw="max-md:hidden" />
     <FooterBg tw="max-md:hidden" />
     <div tw="flex flex-col [text-align:center] [margin-top: -500px] gap-5  max-sm:[margin-top: 0]">
