@@ -7,7 +7,7 @@ const BlogThumbnail: React.FC = () => {
   return (
     <div tw="container relative mx-auto">
       <img tw="[z-index: -10]" src={BlogThumbnail1} />
-      <div tw="absolute w-full h-full flex justify-center items-center top-0">
+      <div tw="absolute  h-full flex justify-center items-center top-0">
         <svg
           width="100%"
           height="285"

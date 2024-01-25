@@ -20,7 +20,7 @@ const styles = {
 
 const Blog = () => (
   <div css={styles.container({ hasBackground: true })}>
-    <div tw="grid [grid-row: auto] w-screen gap-16">
+    <div tw="grid [grid-row: auto] gap-16">
       {/* background  */}
 
       {/* Main Header Menu */}
