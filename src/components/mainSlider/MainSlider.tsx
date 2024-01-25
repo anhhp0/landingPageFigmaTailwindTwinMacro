@@ -8,7 +8,7 @@ import SliderButton from './SliderButton';
 
 
 const MainSlider = () => (
-  <div tw="grid grid-rows-2 justify-center">
+  <div tw="grid grid-rows-2 justify-center pt-8">
     <div tw="flex flex-row max-md:flex-col ">
       {/* Title and Desc  */}
       <div tw="[width: 50%] grid grid-rows-3 pl-8">
