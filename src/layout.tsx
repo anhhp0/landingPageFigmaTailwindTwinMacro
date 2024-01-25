@@ -1,6 +1,7 @@
 import React, { ReactNode } from 'react'
 import Header from './components/Header/Header'
-import Footer from './components/footer/Footer'
+import Footer from './components/Footer/Footer'
+import tw from 'twin.macro';
 
 
 interface LayoutProps {
@@ -12,7 +13,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
     <>
       <Header />
       {children}
-      <Footer />
+      <Footer  tw='container w-screen'/>
     </>
   )
 }
