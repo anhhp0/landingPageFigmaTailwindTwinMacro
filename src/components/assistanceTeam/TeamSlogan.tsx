@@ -1,7 +1,8 @@
 import tw from 'twin.macro'
 import React from 'react'
-import ThumbnailTeamSlogan from './assets/unsplash_rE6FqsyyqwM.svg'
+import ThumbnailTeamSlogan from '../../assets/unsplash_rE6FqsyyqwM.svg'
 import TextTitle from '../textTile/Title'
+
 
 const TeamSlogan: React.FC = () => {
   return (

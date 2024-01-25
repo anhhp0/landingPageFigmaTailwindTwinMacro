@@ -1,5 +1,6 @@
 import tw, { css, styled } from 'twin.macro'
-import PinkButton from '../button/PinkButton'
+import PinkButton from '../Button/PinkButton'
+
 
 const InputText1 = styled.input(() => [
   tw`h-[61.58px] border [border-radius: 15px] border-[#D9DDFE]`,

@@ -1,10 +1,12 @@
 import tw from 'twin.macro'
-import MainLogoBlue from '../logos/mainLogoBlue'
-import MainMenuBgWhite from '../mainMenu/MainMenuBgWhite'
-import Footer from '../footer/Footer'
-import GetInTouch from '../contact/getInTouch'
-import ContactUsContactSite from '../contact/mainContactUsContactSite'
-import Map from '../contact/assets/map.svg'
+import MainLogoBlue from '../components/Logos/MainLogoBlue'
+import MainMenuBgWhite from '../components/mainMenu/MainMenuBgWhite'
+import ProfessionalTeams from '../components/ProfessionalTeam/ProfessionalTeam'
+import Footer from '../components/footer/Footer'
+
+import AssistanceTeam from '../components/assistanceTeam/AssistanceTeam'
+import TeamSlogan from '../components/assistanceTeam/TeamSlogan'
+import OurTestimonials from '../components/assistanceTeam/OurTestimonials'
 
 const styles = {
   // Move long class sets out of jsx to keep it scannable
@@ -14,15 +16,15 @@ const styles = {
   ],
 }
 
-const Contact = () => (
+const Team = () => (
   <div css={styles.container({ hasBackground: true })}>
-    <div tw="grid [grid-row: auto] gap-16">
+    <div tw="grid [grid-row: auto]  gap-24">
       {/* background  */}
 
       {/* Main Header Menu */}
       <div tw="flex flex-col gap-y-2  py-8 px-8">
         {/* Main Header Menu  */}
-        <div tw="flex flex-row flex-wrap place-items-center pb-0 lg:justify-center">
+        <div tw="flex flex-row flex-wrap place-items-center pb-36 lg:justify-center">
           {/* Logo header  */}
           <div tw="flex-none justify-items-start mr-32">
             <MainLogoBlue />
@@ -36,9 +38,13 @@ const Contact = () => (
           </div>
         </div>
       </div>
-      <ContactUsContactSite />
-      <img src={Map} tw='justify-center m-auto'/>
-      <GetInTouch />
+
+      <div tw="flex flex-col gap-y-8 px-4">
+        <ProfessionalTeams />
+      </div>
+      <AssistanceTeam />
+      <TeamSlogan />
+      <OurTestimonials />
       <div tw="container w-screen">
         <Footer />
       </div>
@@ -46,4 +52,4 @@ const Contact = () => (
   </div>
 )
 
-export default Contact
+export default Team

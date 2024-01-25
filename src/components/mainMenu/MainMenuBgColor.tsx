@@ -1,7 +1,7 @@
 import tw from "twin.macro";
-import HomeNavButton from "../button/HomeButton";
-import NavButton from "../button/NavButton";
-import PinkButton from "../button/PinkButton";
+import HomeNavButton from "../Button/HomeButton";
+import NavButton from "../Button/NavButton";
+import PinkButton from "../Button/PinkButton";
 
 const MainMenuBgColor = () => (
 

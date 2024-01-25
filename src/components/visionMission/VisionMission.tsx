@@ -1,6 +1,7 @@
 import tw from 'twin.macro'
 import TextTitle from '../textTile/Title'
-import AnimationVision from './visionAnimation'
+import AnimationVision from './VisionAnimation'
+import AnimationMission from './MissionAnimation'
 
 
 const VisionMission = () => (
@@ -35,7 +36,7 @@ const VisionMission = () => (
           <br /> Varius tellus in suspendisse placerat.
         </TextTitle>
       </div>
-      <AnimationVision />
+      <AnimationMission />
     </div>
   </div>
 )

@@ -1,10 +1,11 @@
 import tw from 'twin.macro'
-import TextTitle from '../textTile/Title'
-import BlitzLogo from './blitzLogo'
-import KzArtistLogo from './kzArtistLogo'
-import CircleLogo from './circleLogo'
-import GeorgeLogo from './georgeLogo'
-import AmandaLogo from './amandaLogo'
+import TextTitle from '../TextTile/Title'
+import AmandaLogo from './AmandaLogo'
+import BlitzLogo from './BlitzLogo'
+import CircleLogo from './CircleLogo'
+import GeorgeLogo from './GeorgeLogo'
+import KzArtistLogo from './KzArtistLogo'
+
 
 
 const OurClients = () => (

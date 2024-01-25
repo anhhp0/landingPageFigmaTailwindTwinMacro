@@ -1,8 +1,8 @@
 import tw from 'twin.macro'
 
-import TextTitle from '../textTile/Title'
-import AngleUp from './assets/angle-up.svg'
-import AngleDown from './assets/angle-down.svg'
+import TextTitle from '../TextTile/Title'
+import AngleUp from '../../assets/angle-up.svg'
+import AngleDown from '../../assets/angle-down.svg'
 
 
 const ServicesFAQ = () => (

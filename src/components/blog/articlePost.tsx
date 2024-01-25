@@ -1,11 +1,11 @@
 import tw, { styled } from 'twin.macro'
-import ImgArticle1 from './assets/unsplash_3ewkNkfJj2k.svg'
-import ImgArticle2 from './assets/unsplash_7tDGb3HrITg.svg'
-import ImgArticle3 from './assets/unsplash_0_McYfdyEDA.svg'
-import CaretRight from './assets/caret-right.svg'
-import FolderIcon from './assets/folder.svg'
+import ImgArticle1 from '../../assets/unsplash_3ewkNkfJj2k.svg'
+import ImgArticle2 from '../../assets/unsplash_7tDGb3HrITg.svg'
+import ImgArticle3 from '../../assets/unsplash_0_McYfdyEDA.svg'
+import CaretRight from '../../assets/caret-right.svg'
+import FolderIcon from '../../assets/folder.svg'
 import TextTitle from '../textTile/Title'
-import PinkButton from '../button/PinkButton'
+import PinkButton from '../Button/PinkButton'
 
 
 const BoxDesc = styled.div(() => [

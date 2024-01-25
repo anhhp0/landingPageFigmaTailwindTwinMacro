@@ -1,11 +1,11 @@
 import tw, { styled } from 'twin.macro'
-import Search from './assets/search.svg'
+import Search from '../../assets/search.svg'
 import TextTitle from '../textTile/Title'
-import RecentPost from './recentPosts'
-import ArticlePost from './articlePost'
-import CategoriesPost from './categoriesPost'
-import CloudTags from './cloudTags'
-import SocialConnect from './socialConnect'
+import RecentPost from './RecentPosts'
+import CategoriesPost from './CategoriesPost'
+import CloudTags from './CloudTags'
+import SocialConnect from './SocialConnect'
+import ArticlePost from './ArticlePost'
 
 const BlogSite = () => (
   <div tw="flex flex-col gap-16">

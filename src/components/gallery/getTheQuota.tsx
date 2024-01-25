@@ -1,7 +1,7 @@
 import tw from 'twin.macro'
 
 import TextTitle from '../textTile/Title'
-import PinkButton from '../button/PinkButton'
+import PinkButton from '../Button/PinkButton'
 
 
 const GetTheQuota = () => (

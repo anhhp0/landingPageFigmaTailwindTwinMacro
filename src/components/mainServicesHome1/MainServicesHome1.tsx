@@ -1,8 +1,9 @@
 import tw from "twin.macro";
+import TextTitle from "../TextTile/Title";
 import BeautyConsultation from "./BeautyConsultation";
-import SkinTreatments from "./SkinTreatments";
 import BeautyProduct from "./BeautyProduct";
-import TextTitle from "../textTile/Title";
+import SkinTreatments from "./SkinTreatments";
+
 
 const MainServicesHome1 = () => (
   <div tw="flex flex-col justify-center gap-y-6 [margin-top: -300px] [text-align: center]">

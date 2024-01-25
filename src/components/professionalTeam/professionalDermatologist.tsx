@@ -1,10 +1,10 @@
 import tw from 'twin.macro'
 import React from 'react'
-import Dermatologist from './assets/dermatologistAvatar.svg'
+import Dermatologist from '../../assets/dermatologistAvatar.svg'
 import TextTitle from '../textTile/Title'
-import FbWhiteBgIcon from '../socialicons/fbWhiteBg'
-import InstagramWhiteBgIcon from '../socialicons/instagramWhiteBg'
-import TwitterWhiteBgIcon from '../socialicons/twitterWhiteBg'
+import FbWhiteBgIcon from '../Socialicons/FbWhiteBg'
+import InstagramWhiteBgIcon from '../Socialicons/InstagramWhiteBg'
+import TwitterWhiteBgIcon from '../Socialicons/TwitterWhiteBg'
 
 const DermatologistProfessional: React.FC = () => {
   return (

@@ -1,12 +1,14 @@
 import tw, { styled } from 'twin.macro'
-import FooterBg from './footerBg'
-import MainLogoBlue from '../logos/mainLogoWhite'
-import CaretRight from './caretRight'
-import FbColorBgIcon from '../socialicons/fbColorBg'
-import TwitterColorBgIcon from '../socialicons/twitterColorBg'
-import LinkedinColorBgIcon from '../socialicons/linkedinColorBg'
-import YoutubeColorBgIcon from '../socialicons/youtubeColorBg'
-import InstagramColorBgIcon from '../socialicons/instagramColorBg'
+
+import MainLogoBlue from '../Logos/MainLogoWhite'
+
+import FbColorBgIcon from '../Socialicons/FbColorBg'
+import TwitterColorBgIcon from '../Socialicons/TwitterColorBg'
+import LinkedinColorBgIcon from '../Socialicons/LinkedinColorBg'
+import YoutubeColorBgIcon from '../Socialicons/YoutubeColorBg'
+import InstagramColorBgIcon from '../Socialicons/InstagramColorBg'
+import FooterBg from './FooterBg'
+import CaretRight from './CaretRight'
 
 const scrollToTop = () => {
   window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })

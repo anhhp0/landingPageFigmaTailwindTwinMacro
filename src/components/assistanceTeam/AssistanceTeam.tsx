@@ -1,8 +1,8 @@
 import tw from 'twin.macro'
-import TextTitle from '../textTile/Title'
-import ImgTeam1 from './assets/unsplash_byGTytEGjBo.svg'
-import ImgTeam2 from './assets/unsplash_8YG31Xn4dSw.svg'
-import ImgTeam3 from './assets/unsplash_Fsgzm8N0hIY.svg'
+import TextTitle from '../TextTile/Title'
+import ImgTeam1 from '../../assets/unsplash_byGTytEGjBo.svg'
+import ImgTeam2 from '../../assets/unsplash_8YG31Xn4dSw.svg'
+import ImgTeam3 from '../../assets/unsplash_Fsgzm8N0hIY.svg'
 
 
 

@@ -1,7 +1,9 @@
-import tw, { css, styled } from 'twin.macro'
-import PinkButton from '../button/PinkButton'
-import AnimationSlider from './AnimationSlider'
-import SliderButton from './sliderButton'
+import tw, { css, styled } from 'twin.macro';
+import PinkButton from '../Button/PinkButton';
+import AnimationSlider from './AnimationSlider';
+import SliderButton from './SliderButton';
+
+
 
 
 

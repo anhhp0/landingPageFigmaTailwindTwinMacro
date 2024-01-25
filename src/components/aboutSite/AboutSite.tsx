@@ -4,6 +4,7 @@
 import ThumbnailAboutSite from './ThumbnailAboutSite'
 
 
+
  const AboutSite = () => (
    <div tw="flex flex-col gap-y-5 mx-auto justify-center">
      <div tw="flex flex-col gap-y-2 justify-center">

@@ -1,9 +1,9 @@
 import tw from 'twin.macro'
 import TextTitle from '../textTile/Title'
 
-import AddressContact from './address'
-import MailContact from './mail'
-import PhoneContact from './phone'
+import AddressContact from './Address'
+import MailContact from './Mail'
+import PhoneContact from './Phone'
 
 const GetInTouch = () => (
   <div tw="flex flex-col justify-center [row-gap: 5.5rem] [text-align: center]">

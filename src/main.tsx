@@ -6,14 +6,14 @@ import '@fontsource/poppins/400.css'
 import '@fontsource/poppins/500.css'
 import '@fontsource/poppins/600.css'
 import '@fontsource/poppins/700.css'
-import Home1 from './components/mainPages/Home1'
-import About from './components/mainPages/About'
-import Service from './components/mainPages/Service'
-import Gallery from './components/mainPages/Gallery'
-import Team from './components/mainPages/Team'
-import Blog from './components/mainPages/Blog'
-import Contact from './components/mainPages/Contact'
-import AllRoutes from './components/mainPages/allRouter'
+import Home1 from './pages/Home1'
+import About from './pages/About'
+import Service from './pages/Service'
+import Gallery from './pages/Gallery'
+import Team from './pages/Team'
+import Blog from './pages/Blog'
+import Contact from './pages/Contact'
+import AllRoutes from './routes/AllRouter'
 
 const container = document.getElementById('root')
 const root = createRoot(container!)
@@ -27,6 +27,6 @@ root.render(
     {/* <Team /> */}
     {/* <Blog /> */}
     {/* <Contact/> */}
-    <AllRoutes/>
+    <AllRoutes />
   </React.StrictMode>,
 )

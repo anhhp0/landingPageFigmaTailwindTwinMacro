@@ -1,10 +1,10 @@
 import tw from 'twin.macro'
 import React from 'react'
-import Stylist from './assets/stylistAvatar.svg'
+import Stylist from '../../assets/stylistAvatar.svg'
 import TextTitle from '../textTile/Title'
-import FbWhiteBgIcon from '../socialicons/fbWhiteBg'
-import TwitterWhiteBgIcon from '../socialicons/twitterWhiteBg'
-import InstagramWhiteBgIcon from '../socialicons/instagramWhiteBg'
+import FbWhiteBgIcon from '../Socialicons/FbWhiteBg'
+import TwitterWhiteBgIcon from '../Socialicons/TwitterWhiteBg'
+import InstagramWhiteBgIcon from '../Socialicons/InstagramWhiteBg'
 
 const StylistProfessional: React.FC = () => {
   return (

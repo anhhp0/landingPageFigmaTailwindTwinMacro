@@ -1,12 +1,12 @@
 import tw from 'twin.macro'
-import MainLogoBlue from '../logos/mainLogoBlue'
-import MainMenuBgWhite from '../mainMenu/MainMenuBgWhite'
-import ProfessionalTeams from '../professionalTeam/professionalTeam'
-import Footer from '../footer/Footer'
-import AboutSite from '../aboutSite/AboutSite'
-import BusinessSlogan from '../businessSlogan/BusinessSlogan'
-import VisionMission from '../visionMission/VisionMission'
-import OurClients from '../ourClients/OurClients'
+import MainLogoBlue from '../components/Logos/MainLogoBlue'
+import MainMenuBgWhite from '../components/mainMenu/MainMenuBgWhite'
+
+import Footer from '../components/footer/Footer'
+
+import OurServices from '../components/ourServices/OurServices'
+import TreatmentVideo from '../components/ourServices/TreatmentVideo'
+import ServicesFAQ from '../components/servicesFAQ/ServicesFAQ'
 
 const styles = {
   // Move long class sets out of jsx to keep it scannable
@@ -16,13 +16,13 @@ const styles = {
   ],
 }
 
-const About = () => (
+const Service = () => (
   <div css={styles.container({ hasBackground: true })}>
-    <div tw="grid [grid-row: auto] gap-y-28">
+    <div tw="grid [grid-row: auto] gap-y-28 ">
       {/* background  */}
 
       {/* Main Header Menu */}
-      <div tw="flex flex-col gap-y-2 py-8 px-8 justify-center">
+      <div tw="flex flex-col gap-y-2 py-8 px-8">
         {/* Main Header Menu  */}
         <div tw="flex flex-row flex-wrap place-items-center pb-36 lg:justify-center">
           {/* Logo header  */}
@@ -39,18 +39,13 @@ const About = () => (
 
           {/* Navigation  */}
         </div>
-        <AboutSite />
+        <OurServices />
+      </div>
+      <div tw="">
+        <TreatmentVideo />
       </div>
 
-      <div tw="flex flex-col gap-y-8 px-4 ">
-        <ProfessionalTeams />
-      </div>
-      {/* <div tw="flex flex-col w-[1440px] gap-4"> */}
-      <BusinessSlogan />
-      <VisionMission />
-      <OurClients />
-      {/* </div> */}
-
+      <ServicesFAQ />
       <div tw="container w-screen">
         <Footer />
       </div>
@@ -58,4 +53,4 @@ const About = () => (
   </div>
 )
 
-export default About
+export default Service

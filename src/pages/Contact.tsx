@@ -1,12 +1,10 @@
 import tw from 'twin.macro'
-import MainLogoBlue from '../logos/mainLogoBlue'
-import MainMenuBgWhite from '../mainMenu/MainMenuBgWhite'
-
-import Footer from '../footer/Footer'
-
-import OurServices from '../ourServices/OurServices'
-import TreatmentVideo from '../ourServices/TreatmentVideo'
-import ServicesFAQ from '../servicesFAQ/ServicesFAQ'
+import MainLogoBlue from '../components/Logos/MainLogoBlue'
+import MainMenuBgWhite from '../components/mainMenu/MainMenuBgWhite'
+import Footer from '../components/footer/Footer'
+import GetInTouch from '../components/Contact/GetInTouch'
+import ContactUsContactSite from '../components/Contact/MainContactUsContactSite'
+import Map from '../assets/map.svg'
 
 const styles = {
   // Move long class sets out of jsx to keep it scannable
@@ -16,15 +14,15 @@ const styles = {
   ],
 }
 
-const Service = () => (
+const Contact = () => (
   <div css={styles.container({ hasBackground: true })}>
-    <div tw="grid [grid-row: auto] gap-y-28 ">
+    <div tw="grid [grid-row: auto] gap-16">
       {/* background  */}
 
       {/* Main Header Menu */}
-      <div tw="flex flex-col gap-y-2 py-8 px-8">
+      <div tw="flex flex-col gap-y-2  py-8 px-8">
         {/* Main Header Menu  */}
-        <div tw="flex flex-row flex-wrap place-items-center pb-36 lg:justify-center">
+        <div tw="flex flex-row flex-wrap place-items-center pb-0 lg:justify-center">
           {/* Logo header  */}
           <div tw="flex-none justify-items-start mr-32">
             <MainLogoBlue />
@@ -36,16 +34,11 @@ const Service = () => (
             {' '}
             <MainMenuBgWhite />
           </div>
-
-          {/* Navigation  */}
         </div>
-        <OurServices />
       </div>
-      <div tw="">
-        <TreatmentVideo />
-      </div>
-
-      <ServicesFAQ />
+      <ContactUsContactSite />
+      <img src={Map} tw="justify-center m-auto" />
+      <GetInTouch />
       <div tw="container w-screen">
         <Footer />
       </div>
@@ -53,4 +46,4 @@ const Service = () => (
   </div>
 )
 
-export default Service
+export default Contact

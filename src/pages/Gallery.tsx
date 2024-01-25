@@ -1,14 +1,10 @@
 import tw from 'twin.macro'
-import MainLogoBlue from '../logos/mainLogoBlue'
-import MainMenuBgWhite from '../mainMenu/MainMenuBgWhite'
-import ProfessionalTeams from '../professionalTeam/professionalTeam'
-import Footer from '../footer/Footer'
-
-import AssistanceTeam from '../assistanceTeam/AssistanceTeam'
-import TeamSlogan from '../assistanceTeam/TeamSlogan'
-import OurTestimonials from '../assistanceTeam/OurTestimonials'
-import BlogThumbnail from '../blog/BlogThumbnail'
-import BlogSite from '../blog/blogSite'
+import MainLogoBlue from '../components/Logos/MainLogoBlue'
+import MainMenuBgWhite from '../components/mainMenu/MainMenuBgWhite'
+import Footer from '../components/footer/Footer'
+import OurGallery from '../components/Gallery/OurGallery'
+import ThumbnailVideoTour from '../components/gallery/ThumbnailVideoTour'
+import GetTheQuota from '../components/Gallery/GetTheQuota'
 
 const styles = {
   // Move long class sets out of jsx to keep it scannable
@@ -18,15 +14,15 @@ const styles = {
   ],
 }
 
-const Blog = () => (
+const Gallery = () => (
   <div css={styles.container({ hasBackground: true })}>
-    <div tw="grid [grid-row: auto] gap-16">
+    <div tw="grid [grid-row: auto] gap-y-28 ">
       {/* background  */}
 
       {/* Main Header Menu */}
-      <div tw="flex flex-col gap-y-2  py-8 px-8">
+      <div tw="flex flex-col gap-y-2 py-8 px-8">
         {/* Main Header Menu  */}
-        <div tw="flex flex-row flex-wrap place-items-center pb-0 lg:justify-center">
+        <div tw="flex flex-row flex-wrap place-items-center pb-36 lg:justify-center">
           {/* Logo header  */}
           <div tw="flex-none justify-items-start mr-32">
             <MainLogoBlue />
@@ -38,13 +34,15 @@ const Blog = () => (
             {' '}
             <MainMenuBgWhite />
           </div>
-        </div>
-      </div>
 
-      <div tw="flex flex-col gap-y-8 px-4 ">
-        <BlogThumbnail />
+          {/* Navigation  */}
+        </div>
+        <OurGallery />
       </div>
-      <BlogSite />
+      <div tw="">
+        <ThumbnailVideoTour />
+      </div>
+      <GetTheQuota />
       <div tw="container w-screen">
         <Footer />
       </div>
@@ -52,4 +50,4 @@ const Blog = () => (
   </div>
 )
 
-export default Blog
+export default Gallery

@@ -1,10 +1,12 @@
 import tw from 'twin.macro'
-import MainLogoBlue from '../logos/mainLogoBlue'
-import MainMenuBgWhite from '../mainMenu/MainMenuBgWhite'
-import Footer from '../footer/Footer'
-import OurGallery from '../gallery/ourGallery'
-import ThumbnailVideoTour from '../gallery/ThumbnailVideoTour'
-import GetTheQuota from '../gallery/getTheQuota'
+import MainLogoBlue from '../components/Logos/MainLogoBlue'
+import MainMenuBgWhite from '../components/mainMenu/MainMenuBgWhite'
+import ProfessionalTeams from '../components/ProfessionalTeam/ProfessionalTeam'
+import Footer from '../components/footer/Footer'
+import AboutSite from '../components/aboutSite/AboutSite'
+import BusinessSlogan from '../components/businessSlogan/BusinessSlogan'
+import VisionMission from '../components/VisionMission/VisionMission'
+import OurClients from '../components/ourClients/OurClients'
 
 const styles = {
   // Move long class sets out of jsx to keep it scannable
@@ -14,13 +16,13 @@ const styles = {
   ],
 }
 
-const Gallery = () => (
+const About = () => (
   <div css={styles.container({ hasBackground: true })}>
-    <div tw="grid [grid-row: auto] gap-y-28 ">
+    <div tw="grid [grid-row: auto] gap-y-28">
       {/* background  */}
 
       {/* Main Header Menu */}
-      <div tw="flex flex-col gap-y-2 py-8 px-8">
+      <div tw="flex flex-col gap-y-2 py-8 px-8 justify-center">
         {/* Main Header Menu  */}
         <div tw="flex flex-row flex-wrap place-items-center pb-36 lg:justify-center">
           {/* Logo header  */}
@@ -37,12 +39,18 @@ const Gallery = () => (
 
           {/* Navigation  */}
         </div>
-        <OurGallery />
+        <AboutSite />
       </div>
-      <div tw="">
-        <ThumbnailVideoTour />
+
+      <div tw="flex flex-col gap-y-8 px-4 ">
+        <ProfessionalTeams />
       </div>
-      <GetTheQuota />
+      {/* <div tw="flex flex-col w-[1440px] gap-4"> */}
+      <BusinessSlogan />
+      <VisionMission />
+      <OurClients />
+      {/* </div> */}
+
       <div tw="container w-screen">
         <Footer />
       </div>
@@ -50,4 +58,4 @@ const Gallery = () => (
   </div>
 )
 
-export default Gallery
+export default About

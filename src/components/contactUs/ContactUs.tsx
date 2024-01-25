@@ -1,10 +1,10 @@
 import tw, { css, styled } from 'twin.macro'
-import PinkButton from '../button/PinkButton'
-import AnimationSlider from './AnimationContactUs'
+
 import AnimationContactUs from './AnimationContactUs'
-import NavButton from '../button/NavButton'
+
 import TextTitle from '../textTile/Title'
 import ContactUsForm from './ContactForm'
+
 
 
 

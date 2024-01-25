@@ -1,8 +1,9 @@
 import tw from 'twin.macro'
 import TextTitle from '../textTile/Title'
-import SurgeonProfessional from './professionalSurgeon'
-import DermatologistProfessional from './professionalDermatologist'
-import StylistProfessional from './professionalStylist'
+import DermatologistProfessional from './ProfessionalDermatologist'
+import StylistProfessional from './ProfessionalStylist'
+import SurgeonProfessional from './ProfessionalSurgeon'
+
 
 const ProfessionalTeams = () => (
   <div tw="flex flex-col justify-center [row-gap: 5.5rem] [text-align: center]">
