@@ -1,3 +1,4 @@
+import { SpeedInsights } from '@vercel/speed-insights/react'
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home1 from './Home1'
@@ -21,8 +22,8 @@ const AllRoutes: React.FC = () => (
       <Route path="/blog" element={<Blog />} />
       <Route path="/contact" element={<Contact />} />
     </Routes>
+    <SpeedInsights />
   </BrowserRouter>
 )
-
 
 export default AllRoutes
