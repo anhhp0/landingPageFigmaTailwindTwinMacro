@@ -1,6 +1,6 @@
 import tw from 'twin.macro'
 import React from 'react'
-import PhoneIcon from '../../../assets/phone-alt.svg'
+import PhoneIcon from '@/assets/phone-alt.svg'
 import TextTitle from '../../../components/TextTile/Title'
 
 const PhoneContact: React.FC = () => {

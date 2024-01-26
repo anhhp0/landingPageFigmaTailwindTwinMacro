@@ -1,6 +1,6 @@
 import tw from 'twin.macro'
 import React from 'react'
-import Surgeon from '../../assets/surgeonAvatar.svg'
+import Surgeon from '@/assets/surgeonAvatar.svg'
 import TextTitle from '../TextTile/Title'
 import FbWhiteBgIcon from '../Socialicons/FbWhiteBg'
 import TwitterWhiteBgIcon from '../Socialicons/TwitterWhiteBg'

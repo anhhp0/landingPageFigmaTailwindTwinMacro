@@ -1,7 +1,7 @@
 import tw from 'twin.macro'
 import React from 'react'
-import ThumbnailTreatMentVideo from '../../../assets/unsplash_NPjNtTExSJ4.svg'
-import PlayButtonWhite from '../../../assets/PlayButtonWhite.svg'
+import ThumbnailTreatMentVideo from '@/assets/unsplash_NPjNtTExSJ4.svg'
+import PlayButtonWhite from '@/assets/PlayButtonWhite.svg'
 import TextTitle from '../../../components/TextTile/Title'
 
 const TreatmentVideo: React.FC = () => {

@@ -1,6 +1,6 @@
 import tw from 'twin.macro'
 import React from 'react'
-import ThumbnailAboutSiteImg from '../../../assets/unsplash_DE6rYp1nAho.svg'
+import ThumbnailAboutSiteImg from '@/assets/unsplash_DE6rYp1nAho.svg'
 
 const ThumbnailAboutSite: React.FC = () => {
   return (

@@ -1,6 +1,6 @@
 import tw from 'twin.macro'
 import React from 'react'
-import Stylist from '../../assets/stylistAvatar.svg'
+import Stylist from '@/assets/stylistAvatar.svg'
 import TextTitle from '../TextTile/Title'
 import FbWhiteBgIcon from '../Socialicons/FbWhiteBg'
 import TwitterWhiteBgIcon from '../Socialicons/TwitterWhiteBg'

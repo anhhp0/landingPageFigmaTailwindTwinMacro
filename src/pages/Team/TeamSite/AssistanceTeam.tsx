@@ -1,8 +1,8 @@
 import tw from 'twin.macro'
 import TextTitle from '../../../components/TextTile/Title'
-import ImgTeam1 from '../../../assets/unsplash_byGTytEGjBo.svg'
-import ImgTeam2 from '../../../assets/unsplash_8YG31Xn4dSw.svg'
-import ImgTeam3 from '../../../assets/unsplash_Fsgzm8N0hIY.svg'
+import ImgTeam1 from '@/assets/unsplash_byGTytEGjBo.svg'
+import ImgTeam2 from '@/assets/unsplash_8YG31Xn4dSw.svg'
+import ImgTeam3 from '@/assets/unsplash_Fsgzm8N0hIY.svg'
 
 const AssistanceTeam = () => (
   <div tw="flex flex-col gap-16">

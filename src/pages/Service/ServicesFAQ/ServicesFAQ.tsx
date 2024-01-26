@@ -1,8 +1,8 @@
 import tw from 'twin.macro'
 
 import TextTitle from '../../../components/TextTile/Title'
-import AngleUp from '../../../assets/angle-up.svg'
-import AngleDown from '../../../assets/angle-down.svg'
+import AngleUp from '@/assets/angle-up.svg'
+import AngleDown from '@/assets/angle-down.svg'
 
 const ServicesFAQ = () => (
   <div tw="flex flex-col gap-y-5 justify-center max-md:mx-2 max-w-[1440px] mx-auto">
