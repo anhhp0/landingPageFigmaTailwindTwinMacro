@@ -5,7 +5,7 @@ const AboutUsBg: React.FC = () => {
   return (
     // <div sx={{ position: "absolute", zIndex: -10, left: 0, display: "inline-flex"}}>
     // <div tw="absolute [z-index: -10]  [left:500px] inline-flex mt-36 ">
-    <div tw="absolute [z-index: -10]  right-0 inline-flex mt-36 ">
+    <div tw="absolute [z-index: -10]  right-0 inline-flex [margin-top: 1100px] ">
 
       <stop stop-color="#E4E7FF" />
       <svg

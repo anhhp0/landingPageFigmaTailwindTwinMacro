@@ -4,7 +4,7 @@ import tw from 'twin.macro'
 const ContactUsBg: React.FC = () => {
   return (
     // <div sx={{ position: "absolute", zIndex: -10, left: 0, display: "inline-flex"}}>
-    <div tw="absolute [z-index: -10] left-0 inline-flex mt-[3000px]">
+    <div tw="absolute [z-index: -10] left-0 inline-flex mt-[2890px]">
       <stop stop-color="#E4E7FF" />
       <svg
         width="100%"
