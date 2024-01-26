@@ -1,5 +1,5 @@
 import tw, { styled } from 'twin.macro'
-import TextTitle from '../textTile/Title'
+import TextTitle from '../TextTile/Title'
 import GalleryImg1 from '../../assets/unsplash_FVh_yqLR9eA_1.svg'
 import GalleryImg2 from '../../assets/unsplash_3ewkNkfJj2k_1.svg'
 import GalleryImg3 from '../../assets/unsplash_xayCTz6N2nM_1.svg'

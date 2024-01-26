@@ -1,6 +1,6 @@
 import tw, { css, styled } from 'twin.macro'
 import AnimationContactUs from '../contactUs/AnimationContactUs'
-import TextTitle from '../textTile/Title'
+import TextTitle from '../TextTile/Title'
 import ContactUsForm from '../contactUs/ContactForm'
 
 const ContactUsContactSite = () => (

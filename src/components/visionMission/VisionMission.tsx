@@ -1,5 +1,5 @@
 import tw from 'twin.macro'
-import TextTitle from '../textTile/Title'
+import TextTitle from '../TextTile/Title'
 import AnimationVision from './VisionAnimation'
 import AnimationMission from './MissionAnimation'
 
