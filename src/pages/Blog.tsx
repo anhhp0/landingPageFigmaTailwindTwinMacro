@@ -1,6 +1,6 @@
 import Layout from '../layout/layout'
-import BlogSite from '../components/Blog/BlogSite'
-import BlogThumbnail from '../components/Blog/BlogThumbnail'
+import BlogSite from '../components/BlogSite/BlogSite'
+import BlogThumbnail from '../components/BlogSite/BlogThumbnail'
 
 const Blog = () => {
   return (
