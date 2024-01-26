@@ -44,6 +44,8 @@ const ArticlePost = () => (
       </BoxDesc>
     </div>
 
+    {/* Article 2 */}
+
     <div tw="flex flex-col">
       <img src={ImgArticle2} />
       <BoxDesc tw="flex flex-col gap-8">
@@ -73,6 +75,8 @@ const ArticlePost = () => (
         </PinkButton>
       </BoxDesc>
     </div>
+
+    {/* Article 3 */}
 
     <div tw="flex flex-col">
       <img src={ImgArticle3} />
