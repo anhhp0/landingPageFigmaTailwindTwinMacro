@@ -3,6 +3,7 @@ import Header from '../components/Header/Header'
 import Footer from '../components/Footer/Footer'
 import tw from 'twin.macro'
 
+
 interface LayoutProps {
   children: ReactNode
 }

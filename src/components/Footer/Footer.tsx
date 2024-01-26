@@ -26,11 +26,11 @@ const TypeTextInfo = styled.div(() => [
 ])
 
 const Footer = () => (
-  <div tw="flex flex-col absolute w-screen justify-between max-md:bg-[#172176] max-md:w-full max-md:[height: auto]  max-md:[padding-top: 20px]">
+  <div tw="flex-col inline-flex w-screen absolute justify-between max-md:bg-[#172176] max-md:w-full max-md:[height: auto]  max-md:[padding-top: 20px]">
     <FooterBg tw="w-screen [background-size: contain] max-md:hidden" />
-    <div tw="flex flex-col pt-16 [text-align:center]  [margin-top: -500px] gap-5  max-md:[margin-top: 0] justify-items-center place-content-center mx-auto">
+    <div tw="flex-col inline-flex pt-16 [text-align:center]  [margin-top: -500px] gap-5  max-md:[margin-top: 0] justify-items-center place-content-center mx-auto">
       <div
-        tw="flex flex-row flex-wrap w-screen justify-center mx-auto
+        tw="flex flex-row flex-wrap justify-center mx-auto
 
       max-md:[margin-top: -110px]
       max-sm:[margin-top: 0]
@@ -146,8 +146,8 @@ const Footer = () => (
       . 
       .  */}
       {/* Social icon + copyright  */}
-      <div tw="flex flex-row flex-wrap gap-4 justify-center [text-align: center]">
-        <div tw="w-1/2 max-md:w-full ">
+      <div tw="flex flex-row flex-wrap gap-4 justify-around [text-align: center]">
+        <div tw=" max-md:w-full ">
           <div tw="flex flex-row gap-10 max-md:place-content-center">
             <FbColorBgIcon />
             <TwitterColorBgIcon />
