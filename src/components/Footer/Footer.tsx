@@ -1,6 +1,6 @@
 import tw, { styled } from 'twin.macro'
 
-import MainLogoBlue from '../Logos/MainLogoWhite'
+import MainLogoBlue from '../Header/Logos/MainLogoWhite'
 import FbColorBgIcon from '../Socialicons/FbColorBg'
 import TwitterColorBgIcon from '../Socialicons/TwitterColorBg'
 import LinkedinColorBgIcon from '../Socialicons/LinkedinColorBg'

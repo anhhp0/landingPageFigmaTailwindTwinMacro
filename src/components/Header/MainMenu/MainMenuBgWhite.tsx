@@ -1,8 +1,7 @@
 import tw from 'twin.macro'
-import HomeNavButton from '../Button/HomeButton'
-import NavButton from '../Button/NavButton'
-import PinkButton from '../Button/PinkButton'
-
+import HomeNavButton from '../../Button/HomeButton'
+import NavButton from '../../Button/NavButton'
+import PinkButton from '../../Button/PinkButton'
 
 const MainMenuBgWhite = () => (
   <div tw="flex flex-row flex-wrap justify-items-end gap-x-12 pl-32 pr-16 max-md:pl-0">

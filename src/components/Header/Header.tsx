@@ -1,6 +1,6 @@
 import tw from 'twin.macro'
-import MainLogoBlue from '../Logos/MainLogoBlue'
-import MainMenuBgWhite from '../MainMenu/MainMenuBgWhite'
+import MainLogoBlue from './Logos/MainLogoBlue'
+import MainMenuBgWhite from './MainMenu/MainMenuBgWhite'
 
 const Header = () => (
   <div tw="flex flex-row flex-wrap place-items-center pb-0 mt-4 lg:justify-center">
