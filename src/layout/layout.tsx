@@ -18,7 +18,7 @@ const styles = {
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div css={styles.container({ hasBackground: true })}>
-      <div tw="flex flex-col gap-16">
+      <div tw="flex flex-col gap-16 mx-auto">
         <Header />
         <div tw="flex flex-col gap-16">{children}</div>
 
