@@ -1,7 +1,6 @@
 import tw, { css, styled } from 'twin.macro'
 import PinkButton from '../Button/PinkButton'
 
-
 const InputText1 = styled.input(() => [
   tw`h-[61.58px] border [border-radius: 15px] border-[#D9DDFE]`,
 ])
@@ -41,7 +40,11 @@ const ContactUsForm = () => (
           placeholder="Subject message"
           tw="pl-4"
         />
-        <InputText2 name="inquiry" placeholder="Your inquiry here" tw="pl-4 pt-4 resize-none" />
+        <InputText2
+          name="inquiry"
+          placeholder="Your inquiry here"
+          tw="pl-4 pt-4 resize-none"
+        />
       </div>
       {/* Form  */}
 

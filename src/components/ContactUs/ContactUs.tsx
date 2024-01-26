@@ -5,10 +5,6 @@ import AnimationContactUs from './AnimationContactUs'
 import TextTitle from '../TextTile/Title'
 import ContactUsForm from './ContactForm'
 
-
-
-
-
 const ContactUs = () => (
   <div tw="flex flex-col pt-36 justify-center">
     <div tw="flex flex-wrap flex-row max-md:flex-col justify-center ">
