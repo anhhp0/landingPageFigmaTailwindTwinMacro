@@ -1,7 +1,7 @@
 import tw, { css, styled } from 'twin.macro'
-import AnimationContactUs from '../contactUs/AnimationContactUs'
+import AnimationContactUs from '../ContactUs/AnimationContactUs'
 import TextTitle from '../TextTile/Title'
-import ContactUsForm from '../contactUs/ContactForm'
+import ContactUsForm from '../ContactUs/ContactForm'
 
 const ContactUsContactSite = () => (
   <div tw="flex flex-col justify-center mx-auto max-md:px-2">
