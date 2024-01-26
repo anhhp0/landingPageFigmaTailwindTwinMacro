@@ -9,7 +9,7 @@ const AboutUsBg: React.FC = () => {
 
       <stop stop-color="#E4E7FF" />
       <svg
-        width="100%"
+        width="100vw"
         height="1029"
         viewBox="0 0 947 1029"
         fill="none"

@@ -20,8 +20,9 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
     <div css={styles.container({ hasBackground: true })}>
       <div tw="flex flex-col gap-16 ">
         <Header />
-        <div tw="flex flex-col gap-16 mx-auto">{children}</div>
-
+        <div tw="flex flex-col gap-16">
+          {children}
+        </div>
         <div tw="container w-screen">
           <Footer />
         </div>
