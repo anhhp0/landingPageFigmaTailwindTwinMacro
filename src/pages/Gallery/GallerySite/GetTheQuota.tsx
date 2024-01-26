@@ -1,7 +1,7 @@
 import tw from 'twin.macro'
 
-import TextTitle from '../../../components/TextTile/Title'
-import PinkButton from '../../../components/Button/PinkButton'
+import TextTitle from 'components/TextTile/Title'
+import PinkButton from 'components/Button/PinkButton'
 
 const GetTheQuota = () => (
   <div tw="flex flex-row flex-wrap  gap-8 mx-auto">

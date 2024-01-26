@@ -1,13 +1,13 @@
 import tw, { styled } from 'twin.macro'
-import TextTitle from '../../../components/TextTile/Title'
-import SquareImg1 from '@/assets/unsplash_5TJ0Hoy5FLY.svg'
-import SquareImg2 from '@/assets/unsplash_pTrhfmj2jDA.svg'
-import LongImg1 from '@/assets/unsplash_ZOT2Mewzmh8.svg'
-import LongImg2 from '@/assets/unsplash_gzfIO69Q6eM.svg'
-import Animation1 from '@/assets/Animation1.svg'
-import Animation2 from '@/assets/Animation2.svg'
-import Animation3 from '@/assets/Animation3.svg'
-import AngleDoubleRight from '@/assets/angle-double-right.svg'
+import TextTitle from 'components/TextTile/Title'
+import SquareImg1 from 'assets/unsplash_5TJ0Hoy5FLY.svg'
+import SquareImg2 from 'assets/unsplash_pTrhfmj2jDA.svg'
+import LongImg1 from 'assets/unsplash_ZOT2Mewzmh8.svg'
+import LongImg2 from 'assets/unsplash_gzfIO69Q6eM.svg'
+import Animation1 from 'assets/Animation1.svg'
+import Animation2 from 'assets/Animation2.svg'
+import Animation3 from 'assets/Animation3.svg'
+import AngleDoubleRight from 'assets/angle-double-right.svg'
 
 const BlueTextButton = styled.button(() => [
   // The common button styles

@@ -1,6 +1,6 @@
 import tw from 'twin.macro'
 
-import TextTitle from '../../../components/TextTile/Title'
+import TextTitle from 'components/TextTile/Title'
 
 const CategoriesPost = () => (
   <div tw="flex flex-col gap-16">

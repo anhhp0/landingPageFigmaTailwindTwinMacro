@@ -1,8 +1,8 @@
 import AssistanceTeam from './TeamSite/AssistanceTeam'
 import OurTestimonials from './TeamSite/OurTestimonials'
 import TeamSlogan from './TeamSite/TeamSlogan'
-import ProfessionalTeams from '../../components/ProfessionalTeam/ProfessionalTeam'
-import Layout from '../../layout/layout'
+import ProfessionalTeams from 'components/ProfessionalTeam/ProfessionalTeam'
+import Layout from 'layouts/layout'
 
 const Blog = () => {
   return (

@@ -1,5 +1,5 @@
 import tw from 'twin.macro'
-import TextTitle from '../../../components/TextTile/Title'
+import TextTitle from 'components/TextTile/Title'
 
 import AddressContact from './Address'
 import MailContact from './Mail'

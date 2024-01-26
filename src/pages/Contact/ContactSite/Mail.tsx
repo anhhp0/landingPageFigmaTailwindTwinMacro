@@ -1,7 +1,7 @@
 import tw from 'twin.macro'
 import React from 'react'
-import MailIcon from '@/assets/mail-bulk.svg'
-import TextTitle from '../../../components/TextTile/Title'
+import MailIcon from 'assets/mail-bulk.svg'
+import TextTitle from 'components/TextTile/Title'
 
 const MailContact: React.FC = () => {
   return (

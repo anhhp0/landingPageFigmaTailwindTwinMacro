@@ -1,9 +1,9 @@
 import tw from 'twin.macro'
-import TextTitle from '../../../components/TextTile/Title'
-import TestimonialsAvatar1 from '@/assets/unsplash_Z5g_6TLS6Ho.svg'
-import Star from '@/assets/star.svg'
-import ArrowLeft from '@/assets/arrow-left.svg'
-import ArrowRight from '@/assets/arrow-right.svg'
+import TextTitle from 'components/TextTile/Title'
+import TestimonialsAvatar1 from 'assets/unsplash_Z5g_6TLS6Ho.svg'
+import Star from 'assets/star.svg'
+import ArrowLeft from 'assets/arrow-left.svg'
+import ArrowRight from 'assets/arrow-right.svg'
 
 const OurTestimonials = () => (
   <div tw="flex flex-col gap-16 justify-center self-center mx-1 [text-align: center]">

@@ -1,7 +1,7 @@
 import OurServices from './OurServices/OurServices'
 import TreatmentVideo from './OurServices/TreatmentVideo'
 import ServicesFAQ from './ServicesFAQ/ServicesFAQ'
-import Layout from '../../layout/layout'
+import Layout from 'layouts/layout'
 
 const Blog = () => {
   return (

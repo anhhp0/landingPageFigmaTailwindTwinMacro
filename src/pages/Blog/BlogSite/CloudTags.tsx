@@ -1,6 +1,6 @@
 import tw, { styled } from 'twin.macro'
 
-import TextTitle from '../../../components/TextTile/Title'
+import TextTitle from 'components/TextTile/Title'
 
 const BoxTags = styled.button(() => [
   tw`text-[14px] w-[82px] h-[26px] rounded-[50px] drop-shadow-2xl text-center border-[0.5px] border-slate-200 text-[#8B8B8B]`,

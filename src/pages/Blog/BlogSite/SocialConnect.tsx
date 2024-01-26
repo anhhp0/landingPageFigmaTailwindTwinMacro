@@ -1,10 +1,10 @@
 import tw, { styled } from 'twin.macro'
 
-import TextTitle from '../../../components/TextTile/Title'
-import FbWhiteBgIcon from '../../../components/Socialicons/FbWhiteBg'
-import TwitterWhiteBgIcon from '../../../components/Socialicons/TwitterWhiteBg'
-import InstagramWhiteBgIcon from '../../../components/Socialicons/InstagramWhiteBg'
-import LinkedinWhiteBgIcon from '../../../components/Socialicons/LinkedinWhiteBg'
+import TextTitle from 'components/TextTile/Title'
+import FbWhiteBgIcon from 'components/Socialicons/FbWhiteBg'
+import TwitterWhiteBgIcon from 'components/Socialicons/TwitterWhiteBg'
+import InstagramWhiteBgIcon from 'components/Socialicons/InstagramWhiteBg'
+import LinkedinWhiteBgIcon from 'components/Socialicons/LinkedinWhiteBg'
 
 const SocialConnect = () => (
   <div tw="flex flex-col gap-16">

@@ -1,7 +1,7 @@
 import tw from 'twin.macro'
 import React from 'react'
-import ThumbnailVideoTour1 from '@/assets/unsplash_eflLpWC1Geo_1.svg'
-import TextTitle from '../../../components/TextTile/Title'
+import ThumbnailVideoTour1 from 'assets/unsplash_eflLpWC1Geo_1.svg'
+import TextTitle from 'components/TextTile/Title'
 
 const ThumbnailVideoTour: React.FC = () => {
   return (

@@ -1,8 +1,8 @@
 import ContactUsContactSite from './ContactSite/MainContactUsContactSite'
-import Layout from '../../layout/layout'
-import Map from '@/assets/map.svg'
+import Map from 'assets/map.svg'
 import GetInTouch from './ContactSite/GetInTouch'
 import tw from 'twin.macro'
+import Layout from 'layouts/layout'
 
 const Contact = () => {
   return (

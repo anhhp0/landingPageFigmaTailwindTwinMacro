@@ -1,5 +1,5 @@
 import tw, { css, styled } from 'twin.macro'
-import PinkButton from '../../../components/Button/PinkButton'
+import PinkButton from 'components/Button/PinkButton'
 import AnimationSlider from './AnimationSlider'
 import SliderButton from './SliderButton'
 

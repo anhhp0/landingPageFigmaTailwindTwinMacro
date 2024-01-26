@@ -1,6 +1,6 @@
 import tw from 'twin.macro'
 
-import TextTitle from '../../../components/TextTile/Title'
+import TextTitle from 'components/TextTile/Title'
 import ThumbnailAboutSite from './ThumbnailAboutSite'
 
 const AboutSite = () => (

@@ -1,5 +1,5 @@
 import tw from 'twin.macro'
-import TextTitle from '../../../components/TextTile/Title'
+import TextTitle from 'components/TextTile/Title'
 import BeautyConsultation from './BeautyConsultation'
 import BeautyProduct from './BeautyProduct'
 import SkinTreatments from './SkinTreatments'

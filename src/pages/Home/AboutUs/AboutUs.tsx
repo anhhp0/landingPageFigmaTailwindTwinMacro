@@ -1,9 +1,9 @@
 import tw from 'twin.macro'
 
-import TextTitle from '../../../components/TextTile/Title'
+import TextTitle from 'components/TextTile/Title'
 import ThumbnailAboutUs from './ThumbnailAboutUs'
-import NavButton from '../../../components/Button/NavButton'
-import PinkButton from '../../../components/Button/PinkButton'
+import NavButton from 'components/Button/NavButton'
+import PinkButton from 'components/Button/PinkButton'
 
 const AboutUs = () => (
   <div tw="flex flex-wrap gap-y-6 w-full justify-center">

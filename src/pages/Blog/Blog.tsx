@@ -1,4 +1,4 @@
-import Layout from '../../layout/layout'
+import Layout from 'layouts/layout'
 import BlogSite from './BlogSite/BlogSite'
 import BlogThumbnail from './BlogSite/BlogThumbnail'
 

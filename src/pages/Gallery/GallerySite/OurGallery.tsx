@@ -1,14 +1,14 @@
 import tw, { styled } from 'twin.macro'
 import TextTitle from '../../../components/TextTile/Title'
-import GalleryImg1 from '@/assets/unsplash_FVh_yqLR9eA_1.svg'
-import GalleryImg2 from '@/assets/unsplash_3ewkNkfJj2k_1.svg'
-import GalleryImg3 from '@/assets/unsplash_xayCTz6N2nM_1.svg'
-import GalleryImg4 from '@/assets/unsplash_Pe9IXUuC6QU_1.svg'
-import GalleryImg5 from '@/assets/unsplash_fvInY-Gh7sc_1.svg'
-import GalleryImg6 from '@/assets/unsplash_HEde-a_T4E8_1.svg'
-import GalleryImg7 from '@/assets/unsplash_9Wa1HgE1XlA_1.svg'
-import GalleryImg8 from '@/assets/unsplash_PqyzuzFiQfY_1.svg'
-import GalleryImg9 from '@/assets/unsplash_4SUyx4KQ5Ik_1.svg'
+import GalleryImg1 from 'assets/unsplash_FVh_yqLR9eA_1.svg'
+import GalleryImg2 from 'assets/unsplash_3ewkNkfJj2k_1.svg'
+import GalleryImg3 from 'assets/unsplash_xayCTz6N2nM_1.svg'
+import GalleryImg4 from 'assets/unsplash_Pe9IXUuC6QU_1.svg'
+import GalleryImg5 from 'assets/unsplash_fvInY-Gh7sc_1.svg'
+import GalleryImg6 from 'assets/unsplash_HEde-a_T4E8_1.svg'
+import GalleryImg7 from 'assets/unsplash_9Wa1HgE1XlA_1.svg'
+import GalleryImg8 from 'assets/unsplash_PqyzuzFiQfY_1.svg'
+import GalleryImg9 from 'assets/unsplash_4SUyx4KQ5Ik_1.svg'
 
 const OurGallery = () => (
   <div tw="flex flex-col justify-center gap-y-4 mx-auto pt-8">

@@ -1,7 +1,7 @@
 import tw from 'twin.macro'
 import React from 'react'
-import ThumbnailBusinessSloganAbouteSite from '../../../../assets/unsplash_Pe9IXUuC6QU.svg'
-import TextTitle from '../../../../components/TextTile/Title'
+import ThumbnailBusinessSloganAbouteSite from 'assets/unsplash_Pe9IXUuC6QU.svg'
+import TextTitle from 'components/TextTile/Title'
 
 const BusinessSlogan: React.FC = () => {
   return (

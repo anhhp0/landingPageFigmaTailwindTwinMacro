@@ -1,7 +1,7 @@
 import tw from 'twin.macro'
 import React from 'react'
-import MapMaker from '@/assets/map-marker-alt.svg'
-import TextTitle from '../../../components/TextTile/Title'
+import MapMaker from 'assets/map-marker-alt.svg'
+import TextTitle from 'components/TextTile/Title'
 
 const AddressContact: React.FC = () => {
   return (
