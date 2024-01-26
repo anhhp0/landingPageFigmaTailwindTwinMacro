@@ -7,7 +7,7 @@ import ProfessionalTeams from '../components/ProfessionalTeam/ProfessionalTeam'
 import ContactUs from '../components/ContactUs/ContactUs'
 
 
-const Home1 = () => {
+const Home = () => {
   return (
     <Layout>
       <MainSlider />
@@ -19,4 +19,4 @@ const Home1 = () => {
   )
 }
 
-export default Home1
+export default Home
