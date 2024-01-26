@@ -31,7 +31,8 @@
     "src/components/**/*",
     "src/components",
     "types/twin.d.ts",
-    "global.d.ts"
+    "global.d.ts",
+    "src/components/**/*.tsx",
   ],
   "references": [
     {
