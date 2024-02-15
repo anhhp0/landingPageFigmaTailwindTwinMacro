@@ -23,7 +23,6 @@ const AllRoutes: React.FC = () => (
       <Route path="/blog" element={<Blog />} />
       <Route path="/contact" element={<Contact />} />
     </Routes>
-    //
     <SpeedInsights />
     <Analytics />
   </BrowserRouter>
