@@ -7,6 +7,7 @@
       "DOM.Iterable",
       "ESNext"
     ],
+    "baseUrl": "src",
     "allowJs": false,
     "skipLibCheck": true,
     "esModuleInterop": false,
@@ -31,7 +32,12 @@
     "src/components/**/*",
     "src/components",
     "types/twin.d.ts",
-    "global.d.ts"
+    "global.d.ts",
+    "src/components/**/*.tsx",
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
   ],
   "references": [
     {
