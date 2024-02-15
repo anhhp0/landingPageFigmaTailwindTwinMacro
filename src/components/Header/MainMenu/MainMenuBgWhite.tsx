@@ -2,35 +2,36 @@ import tw from 'twin.macro'
 import HomeNavButton from '../../Button/HomeButton'
 import NavButton from '../../Button/NavButton'
 import PinkButton from '../../Button/PinkButton'
+import { NavLink } from 'react-router-dom'
 
 const MainMenuBgWhite = () => (
   <div tw="flex flex-row flex-wrap justify-items-end gap-x-12 pl-32 pr-16 max-md:pl-0">
     <HomeNavButton variant="homeButtonBgWhite">
-      <a href="/">Home +</a>
+      <NavLink to="/">Home +</NavLink>
     </HomeNavButton>
     <NavButton variant="navButtonBgWhite">
       {' '}
-      <a href="/about">About</a>
+      <NavLink to="/about">About</NavLink>
     </NavButton>
     <NavButton variant="navButtonBgWhite">
       {' '}
-      <a href="/service">Service</a>
+      <NavLink to="/service">Service</NavLink>
     </NavButton>
     <NavButton variant="navButtonBgWhite">
       {' '}
-      <a href="/gallery">Gallery</a>
+      <NavLink to="/gallery">Gallery</NavLink>
     </NavButton>
     <NavButton variant="navButtonBgWhite">
       {' '}
-      <a href="/team">Team</a>
+      <NavLink to="/team">Team</NavLink>
     </NavButton>
     <NavButton variant="navButtonBgWhite">
       {' '}
-      <a href="/blog">Blog</a>
+      <NavLink to="/blog">Blog</NavLink>
     </NavButton>
     <PinkButton variant="contact">
       {' '}
-      <a href="/contact">Contact</a>
+      <NavLink to="/contact">Contact</NavLink>
     </PinkButton>
   </div>
 )
