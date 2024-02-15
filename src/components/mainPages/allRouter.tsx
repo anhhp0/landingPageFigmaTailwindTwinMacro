@@ -1,12 +1,12 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Home from '../pages/Home/Home'
-import About from '../pages/About/About'
-import Service from '../pages/Service/Service'
-import Gallery from '../pages/Gallery/Gallery'
-import Blog from '../pages/Blog/Blog'
-import Contact from '../pages/Contact/Contact'
-import Team from '../pages/Team/Team'
+import Home from 'pages/Home/Home'
+import About from 'pages/About/About'
+import Service from 'pages/Service/Service'
+import Gallery from 'pages/Gallery/Gallery'
+import Blog from 'pages/Blog/Blog'
+import Contact from 'pages/Contact/Contact'
+import Team from 'pages/Team/Team'
 
 const AllRoutes: React.FC = () => (
   <BrowserRouter>
