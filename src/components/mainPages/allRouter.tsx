@@ -6,22 +6,24 @@ import Service from './Service'
 import Gallery from './Gallery'
 import Blog from './Blog'
 import Contact from './Contact'
+import Team from './Team'
 
 const AllRoutes: React.FC = () => (
+  <BrowserRouter>
+    <Routes>
+      <Route index element={<Home1 />} />
+      <Route path="/" element={<Home1 />} />
+      <Route path="/home" element={<Home1 />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/service" element={<Service />} />
+      <Route path="/gallery" element={<Gallery />} />
+      <Route path="/team" element={<Team />} />
 
-      <BrowserRouter>
-        <Routes>
-          <Route index element={<Home1 />} />
-          <Route path="/" element={<Home1 />} />
-          <Route path="/home" element={<Home1 />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/service" element={<Service />} />
-          <Route path="/gallery" element={<Gallery />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </BrowserRouter>
-  )
+      <Route path="/blog" element={<Blog />} />
+      <Route path="/contact" element={<Contact />} />
+    </Routes>
+  </BrowserRouter>
+)
 
 
 export default AllRoutes
